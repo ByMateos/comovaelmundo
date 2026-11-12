@@ -6,3 +6,5 @@
    Mientras la app no pase la auditoría de YouTube, los vídeos quedan en privado: avisar al usuario con el enlace para que lo publique desde YouTube Studio en el móvil.
 3. **Web**: copiar `/home/claude/canal/web/deploy/.` en `web/` y hacer push → se publica sola en comovaelmundo.pages.dev.
 Comprobar el estado en https://github.com/ByMateos/comovaelmundo/actions (solo lectura) o leyendo los archivos tras `git pull`.
+
+**Si el contenedor es nuevo** y falta /home/claude/canal: sigue `herramientas/RESTAURAR.md` antes de nada.
