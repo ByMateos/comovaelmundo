@@ -1,0 +1,28 @@
+name: Descargar recursos
+on:
+  push:
+    paths: ["descargas/*.json"]
+jobs:
+  bajar:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar URLs pedidas
+        run: |
+          python3 - <<'PY'
+          import json, glob, os, urllib.request
+          for p in glob.glob("descargas/*.json"):
+              d = json.load(open(p)); out = p[:-5]; os.makedirs(out, exist_ok=True)
+              for name, url in d.items():
+                  dst = os.path.join(out, name)
+                  if os.path.exists(dst): continue
+                  req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                  open(dst, "wb").write(urllib.request.urlopen(req, timeout=120).read())
+                  print("ok", dst)
+              os.remove(p)
+          PY
+      - run: |
+          git config user.name "canal-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -A descargas && git commit -m "Recursos descargados" || true
+          git push
