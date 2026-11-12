@@ -9,7 +9,7 @@ from googleapiclient.http import MediaFileUpload
 
 creds = Credentials(None, refresh_token=os.environ["YT_REFRESH_TOKEN"], client_id=os.environ["YT_CLIENT_ID"],
                     client_secret=os.environ["YT_CLIENT_SECRET"], token_uri="https://oauth2.googleapis.com/token",
-                    scopes=["https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtube"])
+                    scopes=["https://www.googleapis.com/auth/youtube"])
 yt = build("youtube", "v3", credentials=creds)
 for meta in sorted(glob.glob("cola/*/meta.json")):
     d = os.path.dirname(meta)

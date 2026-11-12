@@ -1,7 +1,7 @@
 name: Subir a YouTube
 on:
   push:
-    paths: ["cola/**/meta.json"]
+    paths: ["cola/**/meta.json", "scripts/subir_youtube.py"]
   workflow_dispatch:
 jobs:
   subir:
