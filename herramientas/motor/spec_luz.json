@@ -1,0 +1,93 @@
+{
+ "out": "/home/claude/canal/short/short_luz_cara.mp4",
+ "topic": "Energía · 3 de noviembre",
+ "series": "EXPLICADO FÁCIL",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "footer": "Fuentes: OMIE (vía EFE) · 02/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "kicker": "PRECIO DE LA LUZ",
+   "line": "La luz, en",
+   "pill": "máximos",
+   "sub": "El octubre más caro desde 2022"
+  },
+  {
+   "type": "big",
+   "dur": 3.2,
+   "accent": "warm",
+   "kicker": "PRECIO MAYORISTA · OCTUBRE",
+   "from": 0,
+   "to": 166.65,
+   "decimals": 2,
+   "suffix": "",
+   "unit": "euros por MWh",
+   "note": "Más del doble que en octubre de 2025"
+  },
+  {
+   "type": "bars",
+   "dur": 3.6,
+   "kicker": "CÓMO HA SUBIDO EN 2026",
+   "title": "Precio medio del mes (€/MWh)",
+   "unit": "",
+   "decimals": 0,
+   "rows": [
+    [
+     "Febrero",
+     16.41,
+     "",
+     false
+    ],
+    [
+     "Julio",
+     104.75,
+     "",
+     false
+    ],
+    [
+     "Agosto",
+     118.25,
+     "",
+     false
+    ],
+    [
+     "Octubre",
+     166.65,
+     "Máximo en 4 años",
+     true
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "kicker": "CAUSA N.º 1",
+   "title": "El gas, el triple de caro que hace un año",
+   "sub": "Por la crisis en Oriente Medio y el estrecho de Ormuz"
+  },
+  {
+   "type": "text",
+   "dur": 3.0,
+   "kicker": "¿Y POR LA NOCHE?",
+   "title": "Sin sol, se tira de gas",
+   "sub": "Faltan baterías para guardar la energía solar"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "kicker": "TU FACTURA",
+   "title": "Con la tarifa PVPC lo notas ya",
+   "sub": "Su precio cambia cada hora con el mercado. Y el IVA sigue en el 21 %"
+  },
+  {
+   "type": "cta",
+   "dur": 3.4,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Información, no asesoramiento financiero",
+   "next": "Quién gana en EE. UU. y qué cambia"
+  }
+ ]
+}

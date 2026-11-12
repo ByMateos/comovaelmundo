@@ -1,0 +1,84 @@
+{
+ "out": "/home/claude/canal/short/short_binance_hackeo.mp4",
+ "topic": "Cripto · última hora",
+ "series": "EXPLICADO FÁCIL",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "footer": "Fuentes: Binance, Tether, Circle, CoinDesk y CoinMarketCap · 30/10, 00:15",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "kicker": "CRIPTO · ÚLTIMA HORA",
+   "line": "Binance",
+   "pill": "¿hackeo?",
+   "sub": "Salen miles de millones de sus carteras"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "kicker": "¿CUÁNTO?",
+   "title": "Entre 1.700 y 5.700 millones de dólares",
+   "sub": "Estimación de CoinDesk. Binance aún no ha dado ninguna cifra"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "kicker": "QUÉ DICE BINANCE",
+   "title": "«Los fondos de los usuarios están a salvo»",
+   "sub": "Investiga un posible fallo de seguridad, pero no habla de hackeo"
+  },
+  {
+   "type": "bars",
+   "dur": 3.6,
+   "kicker": "CONGELADOS",
+   "title": "Tether y Circle congelan",
+   "unit": " M$",
+   "rows": [
+    [
+     "Tether",
+     1567,
+     "USDT",
+     true
+    ],
+    [
+     "Circle",
+     800,
+     "USDC",
+     true
+    ]
+   ],
+   "note": "Más de esas cifras, según sus consejeros delegados"
+  },
+  {
+   "type": "big",
+   "dur": 3.2,
+   "accent": "warm",
+   "kicker": "BNB, LA CRIPTO DE BINANCE",
+   "from": 0,
+   "to": -6.8,
+   "decimals": 1,
+   "suffix": " %",
+   "note": "Bitcoin −3 % y Ether −4 % · CoinMarketCap"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "kicker": "OJO",
+   "kcol": [
+    255,
+    90,
+    110
+   ],
+   "title": "Cuidado con las estafas que aprovechan el caos",
+   "sub": "Binance pide ignorar enlaces y mensajes no oficiales"
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Información, no asesoramiento financiero"
+  }
+ ]
+}

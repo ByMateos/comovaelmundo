@@ -1,0 +1,70 @@
+{
+ "out": "/home/claude/canal/short/short_noviembre.mp4",
+ "topic": "Economía · 1 de noviembre",
+ "series": "EXPLICADO FÁCIL",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "footer": "Fuentes: BOE (RDL 25/2026), INE y Hacienda · 31/10/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "kicker": "1 DE NOVIEMBRE",
+   "line": "Noviembre",
+   "pill": "trae cambios",
+   "sub": "Lo que afecta a tu bolsillo"
+  },
+  {
+   "type": "big",
+   "dur": 3.2,
+   "accent": "warm",
+   "kicker": "GASOLINA Y DIÉSEL",
+   "from": 0,
+   "to": 20,
+   "decimals": 0,
+   "suffix": "",
+   "unit": "céntimos por litro",
+   "note": "La rebaja se mantiene: iba a bajar a 13"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "kicker": "¿POR QUÉ?",
+   "title": "Los carburantes suben más de un 15 %",
+   "sub": "Gasolina +27,5 % y diésel +34 % en un año, según el INE"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "kicker": "LA LUZ",
+   "title": "El IVA sigue en el 21 %",
+   "sub": "La luz no ha subido lo suficiente para activar la rebaja al 10 %"
+  },
+  {
+   "type": "big",
+   "dur": 3.0,
+   "kicker": "BOMBONA DE BUTANO",
+   "from": 0,
+   "to": 19.55,
+   "decimals": 2,
+   "suffix": " €",
+   "unit": "máximo",
+   "note": "Precio congelado hasta junio de 2027"
+  },
+  {
+   "type": "text",
+   "dur": 3.0,
+   "kicker": "Y ADEMÁS",
+   "title": "Lunes 2, festivo en 9 comunidades",
+   "sub": "Entre ellas Madrid, Andalucía y Castilla y León"
+  },
+  {
+   "type": "cta",
+   "dur": 3.4,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Información, no asesoramiento financiero",
+   "next": "EE. UU. vota: qué se juega"
+  }
+ ]
+}

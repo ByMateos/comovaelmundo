@@ -1,0 +1,69 @@
+{
+ "out": "/home/claude/canal/short/short_urda_ayudas.mp4",
+ "topic": "España · 3 de noviembre",
+ "series": "ÚLTIMA HORA",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "music_volume": 0.07,
+ "footer": "Fuentes: Consejo de Ministros y Mº de Transportes (vía EFE) · 03/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/img_urda/urda_1.jpg",
+   "kicker": "ACCIDENTE DE URDA",
+   "line": "El Gobierno aprueba",
+   "pill": "30 millones",
+   "sub": "En ayudas para los afectados"
+  },
+  {
+   "type": "big",
+   "dur": 3.4,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/img_urda/urda_1.jpg",
+   "kicker": "POR CADA FALLECIDO",
+   "from": 0,
+   "to": 144242,
+   "decimals": 0,
+   "suffix": "",
+   "unit": "euros para su familia",
+   "note": "Mitad ayuda directa y mitad anticipo de indemnización"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/img_urda/urda_2.jpg",
+   "kicker": "HERIDOS",
+   "title": "Entre 2.404 y 84.000 €",
+   "sub": "Según la gravedad de las lesiones"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/img_urda/urda_2.jpg",
+   "kicker": "SIN PAPELEO",
+   "title": "No se devuelven y no pagan IRPF",
+   "sub": "Se reconocen de oficio y son compatibles con otras indemnizaciones"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/img_urda/urda_1.jpg",
+   "kicker": "LA LÍNEA MADRID–SEVILLA",
+   "title": "Puente promete reabrirla en 10 días como máximo",
+   "sub": "Con menos frecuencias entre Madrid y Andalucía"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "accent": "sober",
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Fotos: Savh y Smiley.toerist · Wikimedia Commons · CC BY-SA 3.0"
+  }
+ ]
+}

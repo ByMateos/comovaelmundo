@@ -1,0 +1,12 @@
+{"out": "/home/claude/canal/short/mercados/short_mercados.mp4", "topic": "EE. UU. · 5 de noviembre", "series": "ÚLTIMA HORA",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3", "music_start": 22.5, "music_volume": 0.08,
+ "footer": "Fuentes: AP (Euronews) · Zacks (Yahoo Finance) · 05/11/2026",
+ "scenes": [
+  {"type": "hook", "dur": 3.4, "photo": "/home/claude/canal/short/mercados/18533506.jpg", "kicker": "EE. UU. · MERCADOS", "line": "Wall Street celebra", "pill": "el nuevo Congreso", "sub": "Así reaccionó la bolsa a las elecciones"},
+  {"type": "big", "dur": 4.2, "photo": "/home/claude/canal/short/mercados/10653885.jpg", "kicker": "DOW JONES · MIÉRCOLES 4 NOV", "from": 0, "to": 3.0, "decimals": 0, "prefix": "+", "suffix": " %", "unit": "en un solo día", "note": "+1.569 puntos, hasta 53.356"},
+  {"type": "big", "dur": 4.6, "accent": "warm", "photo": "/home/claude/canal/short/mercados/7392237.jpg", "kicker": "PETRÓLEO", "from": 0, "to": 8, "decimals": 0, "prefix": "−", "suffix": " %", "unit": "en un día", "note": "Se espera que el Congreso frene la guerra con Irán"},
+  {"type": "bars", "dur": 4.6, "kicker": "LOS QUE MÁS CAEN", "title": "Perdedores del día", "unit": " %", "prefix": "−", "decimals": 1,
+   "rows": [["Trump Media", 24.5, "Miércoles", true], ["SK Hynix", 7.4, "Jueves · chips IA", false], ["Lockheed", 6.9, "Defensa", false], ["Exxon", 4.6, "Petróleo", false]]},
+  {"type": "text", "dur": 3.6, "photo": "/home/claude/canal/short/mercados/7567223.jpg", "kicker": "¿Y A TI?", "title": "Si el crudo sigue bajando…", "sub": "podría notarse en la gasolinera"},
+  {"type": "cta", "dur": 3.0, "line1": "Una noticia al día,", "line2": "explicada fácil", "note": "Información, no asesoramiento · Fotos: Pexels"}
+ ]}

@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cómo Va el Mundo · La economía que te afecta, explicada fácil</title>
+<meta name="description" content="Economía y actualidad explicada fácil: la noticia que mueve tu bolsillo en menos de un minuto. Luz, hipotecas, sueldos y precios, con datos oficiales y sin rodeos.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cómo Va el Mundo">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="https://comovaelmundo.pages.dev/">
+<meta property="og:title" content="Cómo Va el Mundo · La economía que te afecta, explicada fácil">
+<meta property="og:description" content="Economía y actualidad explicada fácil: la noticia que mueve tu bolsillo en menos de un minuto. Luz, hipotecas, sueldos y precios, con datos oficiales y sin rodeos.">
+<meta property="og:image" content="https://comovaelmundo.pages.dev/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo de Cómo Va el Mundo y el lema: La economía que te afecta, explicada fácil.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cómo Va el Mundo · La economía que te afecta, explicada fácil">
+<meta name="twitter:description" content="Economía y actualidad explicada fácil: la noticia que mueve tu bolsillo en menos de un minuto. Luz, hipotecas, sueldos y precios, con datos oficiales y sin rodeos.">
+<meta name="twitter:image" content="https://comovaelmundo.pages.dev/og.jpg">
+<meta name="google-site-verification" content="V96u4_wmvfLtq3bpaiVyPsvzRXNQ7whDcuFCuSe6sWk">
+<meta name="theme-color" content="#0b0d1a">
+<link rel="canonical" href="https://comovaelmundo.pages.dev/">
+<link rel="icon" type="image/png" href="__FAVICON__">
+<link rel="apple-touch-icon" href="__LOGO__">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: broadcast-desk landing — live data ticker, a chart line that draws the headline, then a featured long video, a shelf of vertical Shorts and the three series. */
+:root{
+  --ink:#0b0d1a;          /* page ground: night newsroom navy */
+  --panel:#141833;        /* raised surfaces */
+  --line:#2a3060;         /* hairlines / grid */
+  --fg:#eef0fa;           /* main text */
+  --muted:#a3a9c9;        /* secondary text */
+  --gold:#ffc83d;         /* the channel's highlight yellow */
+  --amber:#ff9e2c;        /* gradient partner for gold */
+  --cyan:#38e1ff;         /* data / labels */
+  --red:#f02440;          /* subscribe */
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  color-scheme:dark;
+}
+body{background:var(--ink);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55;overflow-x:hidden}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--ink)}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--ink) 86%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand img{width:40px;height:40px}
+.brand b{font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:-.01em}
+nav{display:flex;gap:2px;padding:4px;border:1px solid var(--line);border-radius:999px;background:color-mix(in srgb,var(--panel) 70%,transparent)}
+nav a{text-decoration:none;font-size:14px;font-weight:500;letter-spacing:.01em;color:var(--muted);padding:7px 16px;border-radius:999px;transition:color .15s ease,background .15s ease}
+nav a:hover,nav a:focus-visible{color:var(--fg);background:rgba(255,255,255,.06)}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:600;text-decoration:none;border-radius:999px;padding:10px 18px;font-size:15px;transition:transform .15s ease,box-shadow .2s ease}
+.btn-sub{background:var(--red);color:#fff;box-shadow:0 6px 24px -8px var(--red)}
+.btn-sub:hover,.btn-sub:focus-visible{transform:translateY(-1px);box-shadow:0 10px 30px -8px var(--red)}
+.btn-ghost{border:1px solid var(--line);color:var(--fg)}
+.btn-ghost:hover,.btn-ghost:focus-visible{border-color:var(--cyan)}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+@media (max-width:720px){.bar{flex-wrap:wrap;row-gap:10px;padding-block:10px}nav{order:3;flex:1 0 100%;justify-content:space-between}nav a{flex:1;text-align:center;padding:7px 0}.brand img{width:34px;height:34px}.bar .btn-sub{padding:8px 14px;font-size:14px}.bar{flex-wrap:wrap}.brand{min-width:0}}
+@media (max-width:380px){.bar .brand b{font-size:15px}.brand{gap:6px}.brand img{width:28px;height:28px}.bar{column-gap:8px}.bar .btn-sub{padding:7px 11px;font-size:13px}}
+@media (max-width:560px){.brand b{font-size:17px;white-space:nowrap}.eyebrow{font-size:11.5px;letter-spacing:.12em}.ticker .live{padding-right:12px;letter-spacing:.1em}}
+
+/* ticker */
+.ticker{position:relative;border-bottom:1px solid var(--line);background:#0f1229;overflow:hidden;font-family:var(--body);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.tk-in{display:flex;align-items:stretch}
+.ticker .live{flex:none;display:flex;align-items:center;gap:8px;padding:0 16px 0 0;margin-right:4px;border-right:1px solid rgba(255,255,255,.1);background:#0f1229;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg);z-index:2;box-shadow:12px 0 16px -4px #0f1229}
+.ticker .live i{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 0 rgba(240,36,64,.6);animation:pulse 1.8s ease-out infinite}
+.ticker .viewport{flex:1;min-width:0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 4%,#000 94%,transparent)}
+.track{display:flex;width:max-content;padding-block:10px;animation:scroll 48s linear infinite}
+.ticker:hover .track{animation-play-state:paused}
+.track span{display:inline-flex;align-items:baseline;gap:8px;padding:0 22px;border-right:1px solid rgba(255,255,255,.08);white-space:nowrap}
+.track span b{color:var(--fg);font-weight:600}
+.track em{font-style:normal;font-size:10px}
+.up{color:#ff7a6b}.down{color:#5fe0a0}
+@keyframes pulse{70%{box-shadow:0 0 0 7px rgba(240,36,64,0)}100%{box-shadow:0 0 0 0 rgba(240,36,64,0)}}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* hero */
+.hero{position:relative;padding-block:64px 40px;overflow:hidden}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.9}
+.hero .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:40px;align-items:end}
+.eyebrow{font-family:var(--mono);font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(42px,7.2vw,88px);line-height:1.02;letter-spacing:-.018em;margin:14px 0 18px;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(180deg,var(--gold),var(--amber));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{max-width:52ch;color:var(--muted);font-size:18px;margin:0 0 26px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.stats div{background:var(--panel);padding:18px 16px}
+.stats b{display:block;font-family:var(--display);font-weight:800;font-size:30px;font-variant-numeric:tabular-nums}
+.stats span{font-size:13px;color:var(--muted)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.hero{padding-block:40px 28px}}
+@media (max-width:560px){.stats b{font-size:22px}.stats div{padding:14px 12px}.stats span{font-size:12px}}
+
+/* sections */
+section{padding-block:44px}
+.head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:20px;flex-wrap:wrap}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(26px,3.4vw,36px);letter-spacing:-.02em;margin:0;text-wrap:balance}
+.head a{color:var(--cyan);font-size:14px;text-decoration:none}
+
+/* featured long */
+.feature{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:center;text-decoration:none}
+.thumb{position:relative;display:block;border-radius:14px;overflow:hidden;aspect-ratio:16/9;max-width:100%;background:var(--panel)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.thumb .dur{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.78);color:#fff;font-family:var(--mono);font-size:12px;font-weight:600;font-variant-numeric:tabular-nums;padding:3px 7px;border-radius:6px}
+.thumb .play{position:absolute;inset:0;display:grid;place-items:center;opacity:0;transition:opacity .25s}
+.thumb .play i{width:64px;height:64px;border-radius:50%;background:var(--red);display:grid;place-items:center}
+.thumb .play i::after{content:"";border-left:18px solid #fff;border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:5px}
+a:hover .thumb img,a:focus-visible .thumb img{transform:scale(1.04)}
+a:hover .thumb .play,a:focus-visible .thumb .play{opacity:1}
+.feature h3{font-family:var(--display);font-weight:700;font-size:clamp(24px,2.8vw,32px);line-height:1.12;margin:10px 0 12px;text-wrap:balance}
+.feature p{color:var(--muted);margin:0 0 16px}
+.tag{display:inline-block;font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.meta{font-size:13px;color:var(--muted)}
+.grid-long{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px}
+.card{text-decoration:none;display:grid;gap:10px}
+.card h4{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.2;margin:0;text-wrap:balance}
+@media (max-width:860px){.feature{grid-template-columns:1fr}.grid-long{grid-template-columns:1fr}}
+
+/* shorts shelf */
+.shelf-wrap{position:relative}
+.shelf{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(170px,200px);gap:16px;overflow-x:auto;overflow-y:hidden;padding:6px 2px 12px;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;-ms-overflow-style:none;overscroll-behavior-x:contain;-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}
+.shelf::-webkit-scrollbar{display:none}
+.shelf.end{-webkit-mask-image:none;mask-image:none}
+.arrows{display:flex;gap:8px;align-items:center}
+.arrows button{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--fg);font-size:18px;line-height:1;cursor:pointer;display:grid;place-items:center;transition:border-color .2s,opacity .2s,transform .15s}
+.arrows button:hover{border-color:var(--cyan)}.arrows button:active{transform:scale(.94)}
+.arrows button:disabled{opacity:.35;cursor:default;border-color:var(--line)}
+.head .right{display:flex;align-items:center;gap:16px}
+.dots{display:flex;justify-content:center;gap:6px;margin-top:6px}
+.dots i{width:6px;height:6px;border-radius:99px;background:var(--line);transition:width .3s,background .3s}
+.dots i.on{width:20px;background:var(--gold)}
+.short{scroll-snap-align:start;text-decoration:none;display:grid;gap:8px}
+.short .thumb{aspect-ratio:9/16}
+.short h4{font-size:14px;font-weight:600;line-height:1.3;margin:0}
+
+/* series */
+.series{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.s{border:1px solid var(--line);border-radius:16px;padding:22px;background:var(--panel)}
+.s .when{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--cyan);letter-spacing:.12em;text-transform:uppercase}
+.s h3{font-family:var(--display);font-weight:800;font-size:22px;margin:8px 0}
+.s p{margin:0;color:var(--muted);font-size:15px}
+@media (max-width:860px){.series{grid-template-columns:1fr}}
+
+/* closing */
+.join{border:1px solid var(--line);border-radius:22px;padding:36px 28px;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:24px;align-items:center;background:radial-gradient(120% 140% at 0% 0%,color-mix(in srgb,var(--gold) 14%,var(--panel)),var(--panel) 60%)}
+.join img{width:84px;height:84px}
+.join h2{font-size:clamp(24px,3vw,32px)}
+.join p{margin:6px 0 0;color:var(--muted)}
+@media (max-width:720px){.join{grid-template-columns:1fr;text-align:left}.join .btn{justify-self:start;padding:12px 26px}}
+footer{padding-block:28px 40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:20px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+
+/* load-in (content visible at rest; motion only offsets) */
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}.d4{animation-delay:.35s}
+@keyframes rise{from{transform:translateY(14px)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){.track,.rise{animation:none}.thumb img{transition:none}}
+
+/* scroll motion */
+nav{position:relative}
+nav a{position:relative;z-index:1}
+nav a.on{color:var(--fg)}
+.nav-ind{position:absolute;top:4px;bottom:4px;left:0;width:0;border-radius:999px;background:rgba(255,255,255,.09);box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);opacity:0;transition:transform .45s cubic-bezier(.2,.8,.2,1),width .45s cubic-bezier(.2,.8,.2,1),opacity .3s ease;pointer-events:none}
+.progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:linear-gradient(90deg,var(--gold),var(--cyan));transform-origin:0 50%;transform:scaleX(0);opacity:.9}
+.js .reveal{opacity:0;transform:translateY(32px) scale(.985);transition:opacity .8s ease,transform .9s cubic-bezier(.16,.84,.24,1);transition-delay:var(--d,0ms)}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}.nav-ind{transition:none}}
+
+/* tools teaser */
+.tool{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;align-items:center;padding:30px;border:1px solid var(--line);border-radius:22px;text-decoration:none;background:radial-gradient(120% 160% at 100% 0%,rgba(255,200,61,.12),transparent 55%),var(--panel);transition:border-color .2s,transform .2s}
+.tool:hover{border-color:var(--gold);transform:translateY(-2px)}
+.tool h3{font-family:var(--display);font-weight:800;font-size:clamp(24px,3vw,34px);line-height:1.1;margin:8px 0 10px}
+.tool p{color:var(--muted);margin:0 0 18px}
+.tool .go{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#16120a;font-weight:700;border-radius:999px;padding:10px 18px}
+.tool .demo{background:var(--panel2,#10132a);border:1px solid var(--line);border-radius:16px;padding:18px}
+.tool .demo small{display:block;color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+.tool .demo b{display:block;font-family:var(--display);font-size:48px;line-height:1.1;font-variant-numeric:tabular-nums}
+.tool .demo span{color:var(--muted);font-size:14px}
+.tool .demo em{font-style:normal;color:#ff7a6b;font-weight:700}
+@media (max-width:760px){.tool{grid-template-columns:minmax(0,1fr);padding:22px}}
+</style>
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="https://www.youtube.com/@ComoVaElMundo" target="_blank" rel="noopener"><img src="__LOGO__" alt="" width="40" height="40"><b>Cómo Va el Mundo</b></a>
+    <nav aria-label="Secciones"><span class="nav-ind" id="navInd"></span><a href="#videos">Vídeos</a><a href="#shorts">Shorts</a><a href="#series">Series</a></nav>
+    <a class="btn btn-sub" href="https://www.youtube.com/@ComoVaElMundo?sub_confirmation=1" target="_blank" rel="noopener">Suscríbete</a>
+  </div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<div class="ticker" aria-label="Datos económicos de la semana">
+  <div class="wrap tk-in"><div class="live"><i></i>Datos clave</div>
+  <div class="viewport"><div class="track" id="track"></div></div></div>
+</div>
+
+<div class="hero">
+  <canvas id="chart" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div>
+      <div class="eyebrow rise d1">Economía y actualidad · España y el mundo</div>
+      <h1 class="rise d2">La economía que te afecta, <em>explicada fácil.</em></h1>
+      <p class="lede rise d3">Cada día, la noticia que mueve tu bolsillo en menos de un minuto: luz, hipotecas, sueldos, precios. Con datos oficiales y sin rodeos.</p>
+      <div class="cta rise d4">
+        <a class="btn btn-sub" href="https://www.youtube.com/@ComoVaElMundo?sub_confirmation=1" target="_blank" rel="noopener">Suscríbete en YouTube</a>
+        <a class="btn btn-ghost" href="#videos">Ver los vídeos</a>
+      </div>
+    </div>
+    <div class="stats rise d4" aria-label="El canal en cifras">
+      <div><b>24,5 mil</b><span>vistas en 28 días</span></div>
+      <div><b>1/día</b><span>noticia explicada</span></div>
+      <div><b>100&nbsp;%</b><span>datos con fuente</span></div>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section id="videos">
+    <div class="wrap">
+      <div class="head"><h2>Vídeos explicados</h2><a href="https://www.youtube.com/@ComoVaElMundo/videos" target="_blank" rel="noopener">Ver todos en YouTube →</a></div>
+      <div id="feature"></div>
+      <div class="grid-long" id="longs"></div>
+    </div>
+  </section>
+
+  <section id="shorts">
+    <div class="wrap">
+      <div class="head"><h2>Shorts de la semana</h2><div class="right"><a href="https://www.youtube.com/@ComoVaElMundo/shorts" target="_blank" rel="noopener">Todos los Shorts →</a><div class="arrows"><button type="button" id="prev" aria-label="Anteriores">‹</button><button type="button" id="next" aria-label="Siguientes">›</button></div></div></div>
+      <div class="shelf" id="shelf"></div>
+      <div class="dots" id="dots" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <section id="herramientas">
+    <div class="wrap">
+      <a class="tool" href="/hipoteca/">
+        <div><span class="tag">Herramienta gratis · Hipotecas</span><h3>Calculadora de hipoteca con el euríbor de hoy</h3><p>Pon tu préstamo y mira cuánto pagas al mes, cuántos intereses en total y qué pasa si el euríbor sube o baja.</p><span class="go">Calcular mi cuota →</span></div>
+        <div class="demo"><small>150.000 € a 25 años · euríbor&nbsp;+&nbsp;1&nbsp;%</small><b>812 €/mes</b><span>Con el euríbor de hace un año: 726 €/mes · <em>+86 €/mes</em></span></div>
+      </a>
+    </div>
+  </section>
+
+  <section id="series">
+    <div class="wrap">
+      <div class="head"><h2>Tres formatos, todos los días</h2></div>
+      <div class="series">
+        <div class="s"><div class="when">Cada día · 13:00</div><h3>Explicado fácil</h3><p>Un dato económico en 20 segundos: euríbor, IPC, salario mínimo, precio de la luz.</p></div>
+        <div class="s"><div class="when">Cuando salta</div><h3>Última hora</h3><p>Las noticias importantes de España y del mundo, contrastadas con fuentes oficiales.</p></div>
+        <div class="s"><div class="when">Semanal</div><h3>¿Sabías que…?</h3><p>Curiosidades de economía y tecnología que cambian cómo ves las cosas.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="join">
+        <img src="__LOGO__" alt="" width="84" height="84">
+        <div><h2>Entiende la economía en un minuto al día</h2><p>Suscríbete y activa la campana para no perderte la noticia de cada día.</p></div>
+        <a class="btn btn-sub" href="https://www.youtube.com/@ComoVaElMundo?sub_confirmation=1" target="_blank" rel="noopener">Suscríbete</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span>© 2026 Cómo Va el Mundo · youtube.com/@ComoVaElMundo · <a href="/hipoteca/" style="color:var(--cyan);text-decoration:none">Calculadora de hipoteca</a></span><span>Información, no asesoramiento financiero. Datos de INE, BOE, OMIE, Banco de España y Seguridad Social.</span></div>
+</footer>
+
+<script>
+const DATA = __DATA__;
+const YT = id => "https://www.youtube.com/watch?v=" + id;
+const YS = id => "https://www.youtube.com/shorts/" + id;
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// ticker (real figures from the channel's videos)
+const tick = [
+  ["Luz lunes 9 nov", "179,67 €/MWh", "down", "▼"], ["Pico sáb. 7 nov", "232,58 €/MWh", "up", "▲"], ["Luz mayorista oct.", "166,65 €/MWh", "up", "▲"],
+  ["Euríbor oct.", "3,239 %", "up", "▲"], ["Nasdaq (5 nov)", "−5,5 %", "up", "▼"],
+  ["Paro registrado", "2.422.633", "up", "▲"], ["Afiliados S. Social", "+186.612", "down", "▲"],
+  ["SMI 2027 (propuesta)", "1.286 €", "up", "▲"], ["IPC oct. (adelantado)", "4,9 %", "up", "="],
+  ["Aceite 26/27 (aforo)", "1,6 M t", "down", "▲"], ["Paro EE. UU. oct.", "4,1 %", "", ""], ["IPC EE. UU. oct. (mes)", "+0,4 %", "up", "▲"],
+  ["Gasolina 95", "1,722 €/l", "", ""], ["Bombona butano", "19,55 €", "", ""], ["Huelga general", "hoy 11 nov", "", ""], ["Huelga maquinistas", "17 nov", "", ""], ["Actualizado", "11 nov 2026", "", ""]
+];
+const row = tick.map(([k, v, c, a]) => `<span>${k} <b>${v}</b>${a ? `<em class="${c}">${a}</em>` : ""}</span>`).join("");
+document.getElementById("track").innerHTML = row + row;
+
+// featured + long videos
+const [f, ...rest] = DATA.long;
+document.getElementById("feature").innerHTML = `
+  <a class="feature" href="${YT(f.id)}" target="_blank" rel="noopener">
+    <span class="thumb"><img src="${f.img}" alt="${esc(f.t)}"><span class="dur">${f.d}</span><span class="play"><i></i></span></span>
+    <span><span class="tag">Último vídeo · ${f.tag}</span><h3>${esc(f.t)}</h3>
+    <p>${esc(f.desc || "")}</p>
+    <span class="meta">${f.date} · ${f.d} min</span></span>
+  </a>`;
+document.getElementById("longs").innerHTML = rest.map(v => `
+  <a class="card" href="${YT(v.id)}" target="_blank" rel="noopener">
+    <span class="thumb"><img src="${v.img}" alt="${esc(v.t)}" loading="lazy"><span class="dur">${v.d}</span><span class="play"><i></i></span></span>
+    <span class="tag">${v.tag}</span><h4>${esc(v.t)}</h4><span class="meta">${v.date}</span>
+  </a>`).join("");
+document.getElementById("shelf").innerHTML = DATA.shorts.map(v => `
+  <a class="short" href="${YS(v.id)}" target="_blank" rel="noopener">
+    <span class="thumb"><img src="${v.img}" alt="${esc(v.t)}" loading="lazy"><span class="play"><i></i></span></span>
+    <span class="tag">${v.tag}</span><h4>${esc(v.t)}</h4>
+  </a>`).join("");
+
+// hero: a market-style line that draws itself behind the headline
+(function () {
+  const cv = document.getElementById("chart"), cx = cv.getContext("2d");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const pts = []; let seed = 7;
+  const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+  let y = 0.62; for (let i = 0; i <= 60; i++) { y += (rnd() - 0.42) * 0.07; y = Math.min(.85, Math.max(.2, y)); pts.push(y); }
+  let t0 = null;
+  function draw(ts) {
+    const r = cv.getBoundingClientRect(), dpr = Math.min(2, devicePixelRatio || 1);
+    if (cv.width !== Math.round(r.width * dpr)) { cv.width = Math.round(r.width * dpr); cv.height = Math.round(r.height * dpr); }
+    const W = cv.width, H = cv.height; cx.clearRect(0, 0, W, H);
+    cx.strokeStyle = "rgba(56,225,255,.07)"; cx.lineWidth = 1 * dpr;
+    for (let gx = 0; gx < W; gx += 64 * dpr) { cx.beginPath(); cx.moveTo(gx, 0); cx.lineTo(gx, H); cx.stroke(); }
+    for (let gy = 0; gy < H; gy += 64 * dpr) { cx.beginPath(); cx.moveTo(0, gy); cx.lineTo(W, gy); cx.stroke(); }
+    if (t0 === null) t0 = ts;
+    const p = reduce ? 1 : Math.min(1, (ts - t0) / 2200);
+    const n = Math.max(2, Math.floor(pts.length * p));
+    const X = i => i / (pts.length - 1) * W, Y = v => v * H;
+    const g = cx.createLinearGradient(0, 0, W, 0); g.addColorStop(0, "rgba(255,200,61,.15)"); g.addColorStop(1, "rgba(255,200,61,.9)");
+    cx.beginPath(); for (let i = 0; i < n; i++) { i ? cx.lineTo(X(i), Y(pts[i])) : cx.moveTo(X(i), Y(pts[i])); }
+    cx.strokeStyle = g; cx.lineWidth = 3 * dpr; cx.stroke();
+    cx.lineTo(X(n - 1), H); cx.lineTo(0, H); cx.closePath();
+    const fg = cx.createLinearGradient(0, 0, 0, H); fg.addColorStop(0, "rgba(255,200,61,.10)"); fg.addColorStop(1, "rgba(255,200,61,0)");
+    cx.fillStyle = fg; cx.fill();
+    const ex = X(n - 1), ey = Y(pts[n - 1]);
+    cx.beginPath(); cx.arc(ex, ey, 5 * dpr, 0, 7); cx.fillStyle = "#ffc83d"; cx.fill();
+    cx.beginPath(); cx.arc(ex, ey, (9 + 4 * Math.sin(ts / 300)) * dpr, 0, 7); cx.strokeStyle = "rgba(255,200,61,.4)"; cx.lineWidth = 2 * dpr; cx.stroke();
+    if (!reduce) requestAnimationFrame(draw);
+  }
+  requestAnimationFrame(draw);
+})();
+// smooth anchor scrolling, scroll reveals, active-section indicator, progress bar
+(function () {
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const header = document.querySelector("header");
+  const ease = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  let anim = null;
+  function scrollToY(y) {
+    if (reduce) { scrollTo(0, y); return; }
+    const y0 = scrollY, dy = y - y0, dur = Math.min(1300, Math.max(650, Math.abs(dy) * 0.45)), t0 = performance.now();
+    cancelAnimationFrame(anim);
+    const step = now => { const p = Math.min(1, (now - t0) / dur); scrollTo(0, y0 + dy * ease(p)); if (p < 1) anim = requestAnimationFrame(step); };
+    anim = requestAnimationFrame(step);
+  }
+  ["wheel", "touchstart", "keydown"].forEach(ev => addEventListener(ev, () => cancelAnimationFrame(anim), { passive: true }));
+  document.addEventListener("click", e => {
+    const a = e.target.closest('a[href^="#"]'); if (!a) return;
+    const el = document.querySelector(a.getAttribute("href")); if (!el) return;
+    e.preventDefault();
+    scrollToY(el.getBoundingClientRect().top + scrollY - header.offsetHeight - 12);
+    history.replaceState(null, "", a.getAttribute("href"));
+  });
+
+  // reveal on scroll, staggered inside each group
+  const groups = [[".head"], [".tool"], ["#feature"], ["#longs .card"], ["#shelf .short"], [".series .s"], [".join"]];
+  const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { const t = en.target; (t.id === "shelf" ? [...t.children] : [t]).forEach(x => x.classList.add("in")); io.unobserve(t); } }),
+    { threshold: .12, rootMargin: "0px 0px -6% 0px" });
+  groups.forEach(([sel]) => document.querySelectorAll(sel).forEach((el, i) => {
+    el.classList.add("reveal"); el.style.setProperty("--d", Math.min(i, 6) * 80 + "ms"); if (!el.closest("#shelf")) io.observe(el);
+  }));
+  io.observe(document.getElementById("shelf"));
+
+  // nav indicator + progress
+  const links = [...document.querySelectorAll("nav a")], ind = document.getElementById("navInd"), bar = document.getElementById("progress");
+  const secs = links.map(a => document.querySelector(a.getAttribute("href")));
+  let cur = -1;
+  function place(i) {
+    if (i === cur) return; cur = i;
+    links.forEach((a, k) => a.classList.toggle("on", k === i));
+    if (i < 0) { ind.style.opacity = 0; return; }
+    const a = links[i];
+    ind.style.width = a.offsetWidth + "px"; ind.style.transform = `translateX(${a.offsetLeft}px)`; ind.style.opacity = 1;
+  }
+  let ticking = false;
+  function onScroll() {
+    ticking = false;
+    const line = header.offsetHeight + innerHeight * .3; let i = -1;
+    secs.forEach((s, k) => { if (s && s.getBoundingClientRect().top <= line) i = k; });
+    place(i);
+    const max = document.documentElement.scrollHeight - innerHeight;
+    bar.style.transform = `scaleX(${max > 0 ? scrollY / max : 0})`;
+  }
+  addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  addEventListener("resize", () => { cur = -2; onScroll(); });
+  onScroll();
+})();
+// shorts shelf: arrows, dots, wheel-to-horizontal
+(function () {
+  const sh = document.getElementById("shelf"), prev = document.getElementById("prev"), next = document.getElementById("next"), dots = document.getElementById("dots");
+  const pages = () => Math.max(1, Math.ceil(sh.scrollWidth / sh.clientWidth - .05));
+  function upd() {
+    const max = sh.scrollWidth - sh.clientWidth;
+    prev.disabled = sh.scrollLeft < 4; next.disabled = sh.scrollLeft > max - 4;
+    sh.classList.toggle("end", sh.scrollLeft > max - 4);
+    const n = pages(); if (dots.children.length !== n) dots.innerHTML = "<i></i>".repeat(n);
+    const k = max > 0 ? Math.round(sh.scrollLeft / max * (n - 1)) : 0;
+    [...dots.children].forEach((d, i) => d.classList.toggle("on", i === k));
+  }
+  const step = () => Math.max(220, sh.clientWidth * .85);
+  prev.onclick = () => sh.scrollBy({ left: -step(), behavior: "smooth" });
+  next.onclick = () => sh.scrollBy({ left: step(), behavior: "smooth" });
+  sh.addEventListener("scroll", () => requestAnimationFrame(upd), { passive: true });
+  addEventListener("resize", upd); upd();
+})();
+</script>
+</body>
+</html>

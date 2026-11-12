@@ -1,0 +1,61 @@
+{
+ "out": "/home/claude/canal/short/short_jesus_de_miguel.mp4",
+ "topic": "Fútbol · 3 de noviembre",
+ "series": "ÚLTIMA HORA",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "music_volume": 0.06,
+ "footer": "Fuentes: comunicados del CD Tenerife y el FC Andorra · 03/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "accent": "sober",
+   "kicker": "FÚTBOL · SEGUNDA DIVISIÓN",
+   "line": "Fallece",
+   "pill": "Jesús de Miguel",
+   "sub": "Delantero del CD Tenerife, 30 años"
+  },
+  {
+   "type": "text",
+   "dur": 3.6,
+   "accent": "sober",
+   "kicker": "QUÉ PASÓ",
+   "title": "Un choque fortuito con el portero del Andorra",
+   "sub": "Lunes 2 de noviembre, en el Heliodoro Rodríguez López"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "accent": "sober",
+   "kicker": "EL PARTIDO",
+   "title": "Se suspendió para atenderle en el campo",
+   "sub": "Fue trasladado al Hospital de la Candelaria"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "accent": "sober",
+   "kicker": "ESTE MARTES",
+   "title": "El club confirma su fallecimiento",
+   "sub": "Pide máximo respeto a la privacidad de la familia"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "accent": "sober",
+   "kicker": "EL FÚTBOL, DE LUTO",
+   "title": "El Andorra, devastado, envía sus condolencias",
+   "sub": "Nuestro cariño a su familia, compañeros y afición"
+  },
+  {
+   "type": "cta",
+   "dur": 3.4,
+   "accent": "sober",
+   "line1": "Descansa en paz,",
+   "line2": "Jesús de Miguel",
+   "note": "1996 – 2026",
+   "no_button": true
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "out": "/home/claude/canal/short/short_learjet_florida.mp4",
+ "topic": "EE. UU. · 2 de noviembre",
+ "series": "ÚLTIMA HORA",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "music_volume": 0.07,
+ "footer": "Fuentes: Dpto. de Transporte de EE. UU., NTSB y FAA · 02/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "accent": "sober",
+   "kicker": "FLORIDA · EE. UU.",
+   "line": "Cae un avión privado",
+   "pill": "9 fallecidos",
+   "sub": "En una zona residencial de West Palm Beach"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "accent": "sober",
+   "kicker": "QUÉ SE SABE",
+   "title": "Un Learjet 60 que iba de Texas a Bahamas",
+   "sub": "Se estrelló el domingo 1 de noviembre"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "accent": "sober",
+   "kicker": "LOS ÚLTIMOS MINUTOS",
+   "title": "La tripulación declaró emergencia",
+   "sub": "Había avisado de turbulencias y hielo al control aéreo"
+  },
+  {
+   "type": "big",
+   "dur": 3.2,
+   "accent": "sober",
+   "kicker": "PÉRDIDA DE ALTURA",
+   "from": 0,
+   "to": 8230,
+   "decimals": 0,
+   "suffix": " m",
+   "unit": "en cerca de un minuto",
+   "note": "Según los datos de seguimiento del vuelo"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "accent": "sober",
+   "kicker": "INVESTIGACIÓN",
+   "title": "La NTSB investiga la causa",
+   "sub": "Con apoyo de la FAA. Aún no se sabe qué falló"
+  },
+  {
+   "type": "cta",
+   "dur": 3.2,
+   "accent": "sober",
+   "line1": "Nuestro recuerdo",
+   "line2": "para las víctimas",
+   "note": "Información verificada con fuentes oficiales"
+  }
+ ]
+}

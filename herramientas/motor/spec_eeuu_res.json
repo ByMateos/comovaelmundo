@@ -1,0 +1,53 @@
+{
+ "out": "/home/claude/canal/short/short_eeuu_resultado.mp4",
+ "topic": "Internacional · 4 de noviembre",
+ "series": "ÚLTIMA HORA",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "music_volume": 0.08,
+ "voice": "/home/claude/canal/short/n4/voz_eeuu_resultado.mp3",
+ "voice_delay": 0.15,
+ "footer": "Fuentes: Associated Press (Senado) y CBS News (Cámara) · 04/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 6.9,
+   "photo": "/home/claude/canal/short/eeuu/eeuu_1.jpg",
+   "kicker": "RESULTADOS · EE. UU.",
+   "line": "Los demócratas",
+   "pill": "ganan el Senado",
+   "sub": "Según la agencia AP"
+  },
+  {
+   "type": "text",
+   "dur": 5.3,
+   "photo": "/home/claude/canal/short/eeuu/eeuu_3.jpg",
+   "kicker": "ESCAÑOS QUE CAMBIAN",
+   "title": "Texas, Carolina del Norte y Ohio",
+   "sub": "Eran republicanos y pasan a los demócratas"
+  },
+  {
+   "type": "text",
+   "dur": 8.1,
+   "photo": "/home/claude/canal/short/eeuu/eeuu_3.jpg",
+   "kicker": "CÁMARA DE REPRESENTANTES",
+   "title": "CBS proyecta mayoría demócrata",
+   "sub": "AP todavía no la ha confirmado"
+  },
+  {
+   "type": "text",
+   "dur": 7.8,
+   "photo": "/home/claude/canal/short/eeuu/eeuu_1.jpg",
+   "kicker": "¿QUÉ CAMBIA?",
+   "title": "Trump sigue de presidente",
+   "sub": "Con el Congreso en manos de la oposición, le costará más aprobar leyes"
+  },
+  {
+   "type": "cta",
+   "dur": 2.5,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Fotos: Architect of the Capitol (dominio público) · Funknendai (CC0)"
+  }
+ ]
+}

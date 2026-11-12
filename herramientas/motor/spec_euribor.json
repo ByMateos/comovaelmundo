@@ -1,0 +1,89 @@
+{
+ "out": "/home/claude/canal/short/short_euribor.mp4",
+ "topic": "Hipotecas · 5 de noviembre",
+ "series": "EXPLICADO FÁCIL",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "footer": "Fuentes: euríbor (EMMI vía Rankia/Kelisto) · cuota calculada · 04/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "photo": "/home/claude/canal/mini/17082223.jpg",
+   "kicker": "HIPOTECAS",
+   "line": "El número que",
+   "pill": "decide tu hipoteca",
+   "sub": "El euríbor, explicado en 20 segundos"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "photo": "/home/claude/canal/mini/31424880.jpg",
+   "kicker": "QUÉ ES",
+   "title": "El precio al que se prestan dinero los bancos",
+   "sub": "Hipoteca variable = euríbor + un diferencial"
+  },
+  {
+   "type": "big",
+   "dur": 3.2,
+   "accent": "warm",
+   "kicker": "EURÍBOR · MEDIA DE OCTUBRE",
+   "from": 0,
+   "to": 3.239,
+   "decimals": 3,
+   "suffix": " %",
+   "note": "Hace un año estaba en el 2,187 %"
+  },
+  {
+   "type": "bars",
+   "dur": 3.8,
+   "kicker": "HIPOTECA DE 150.000 € A 25 AÑOS",
+   "title": "Cuota al mes con euríbor + 1 %",
+   "unit": " €",
+   "decimals": 0,
+   "rows": [
+    [
+     "Oct. 2025",
+     726,
+     "Euríbor 2,187 %",
+     false
+    ],
+    [
+     "Oct. 2026",
+     812,
+     "Euríbor 3,239 %",
+     true
+    ]
+   ]
+  },
+  {
+   "type": "big",
+   "dur": 3.0,
+   "accent": "warm",
+   "kicker": "SI TE REVISAN AHORA",
+   "from": 0,
+   "to": 86,
+   "decimals": 0,
+   "prefix": "+",
+   "suffix": " €",
+   "unit": "al mes",
+   "note": "Unos 1.030 € más al año"
+  },
+  {
+   "type": "text",
+   "dur": 3.0,
+   "photo": "/home/claude/canal/mini/17082223.jpg",
+   "kicker": "¿Y EN NOVIEMBRE?",
+   "title": "Sigue subiendo",
+   "sub": "El 3 de noviembre marcó un 3,317 %"
+  },
+  {
+   "type": "cta",
+   "dur": 3.4,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Información, no asesoramiento financiero",
+   "next": "¿Cuántos años de sueldo cuesta una casa?"
+  }
+ ]
+}

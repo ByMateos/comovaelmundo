@@ -1,0 +1,81 @@
+{
+ "out": "/home/claude/canal/short/short_urda_lzb.mp4",
+ "topic": "Última hora · 30 de octubre",
+ "series": "EXPLICADO FÁCIL",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/ambient_lzb.wav",
+ "music_start": 0,
+ "music_volume": 0.7,
+ "footer": "Fuentes: Ministerio de Transportes (rueda de prensa 30/10), infoLibre, La Cerca",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "kicker": "ACCIDENTE DE URDA",
+   "kcol": [
+    235,
+    120,
+    130
+   ],
+   "line": "El LZB falló",
+   "pill": "170 veces",
+   "sub": "este año, reconoce Óscar Puente",
+   "accent": "sober"
+  },
+  {
+   "type": "text",
+   "dur": 3.6,
+   "kicker": "¿QUÉ ES EL LZB?",
+   "title": "El sistema que frena el tren si va demasiado rápido",
+   "sub": "Le envía la velocidad máxima por cables junto a la vía",
+   "accent": "sober"
+  },
+  {
+   "type": "big",
+   "dur": 3.4,
+   "kicker": "SEGÚN PUENTE",
+   "from": 0,
+   "to": 75,
+   "suffix": " %",
+   "unit": "por causas externas",
+   "note": "Vandalismo, robo de cable u obras. Lo habitual: 150–200 al año",
+   "accent": "sober"
+  },
+  {
+   "type": "text",
+   "dur": 3.6,
+   "kicker": "¿Y EN URDA?",
+   "title": "Apunta a un fallo en el centro de control de Adif",
+   "sub": "Aún no se sabe por qué cayó la comunicación a las 8:30",
+   "accent": "sober"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "kicker": "BALANCE OFICIAL",
+   "kcol": [
+    235,
+    120,
+    130
+   ],
+   "title": "69 fallecidos",
+   "sub": "El juzgado y la AITAT investigan qué pasó",
+   "accent": "sober"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "kicker": "¿Y AHORA?",
+   "title": "La línea pasará al sistema ERTMS-2 en 2027",
+   "sub": "Puente defiende que el LZB es igual de seguro",
+   "accent": "sober"
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "line1": "Lo que pasa, explicado",
+   "line2": "con datos oficiales",
+   "note": "Nuestro recuerdo para las víctimas y sus familias",
+   "accent": "sober"
+  }
+ ]
+}

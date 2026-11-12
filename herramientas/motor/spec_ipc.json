@@ -1,0 +1,77 @@
+{
+ "out": "/home/claude/canal/short/short_ipc_octubre.mp4",
+ "topic": "Economía · 30 de octubre",
+ "series": "EXPLICADO FÁCIL",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "footer": "Fuente: INE, indicador adelantado del IPC · 30/10/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "kicker": "IPC DE OCTUBRE",
+   "line": "La inflación",
+   "pill": "no baja",
+   "sub": "Los precios siguen subiendo igual"
+  },
+  {
+   "type": "big",
+   "dur": 3.0,
+   "accent": "warm",
+   "kicker": "SUBIDA DE PRECIOS EN UN AÑO",
+   "from": 0,
+   "to": 4.9,
+   "decimals": 1,
+   "suffix": " %",
+   "note": "Igual que en septiembre · Dato adelantado del INE"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "kicker": "¿POR QUÉ?",
+   "title": "Baja la gasolina, pero sube el gas",
+   "sub": "Y la comida sigue subiendo, aunque menos que hace un año"
+  },
+  {
+   "type": "bars",
+   "dur": 3.6,
+   "kicker": "DOS FORMAS DE MEDIRLA",
+   "title": "Inflación en octubre",
+   "unit": " %",
+   "decimals": 1,
+   "rows": [
+    [
+     "General",
+     4.9,
+     "Todo lo que compras",
+     true
+    ],
+    [
+     "Subyacente",
+     3.1,
+     "Sin energía ni alimentos frescos",
+     false
+    ]
+   ],
+   "note": "La subyacente también se mantiene, en el 3,1 %"
+  },
+  {
+   "type": "big",
+   "dur": 3.2,
+   "accent": "warm",
+   "kicker": "TU BOLSILLO",
+   "from": 1000,
+   "to": 1049,
+   "suffix": " €",
+   "unit": "hoy",
+   "note": "Lo que costaba 1.000 € hace un año"
+  },
+  {
+   "type": "cta",
+   "dur": 3.0,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Información, no asesoramiento financiero"
+  }
+ ]
+}

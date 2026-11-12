@@ -1,0 +1,66 @@
+{
+ "out": "/home/claude/canal/short/short_puente_dimite.mp4",
+ "topic": "España · 4 de noviembre",
+ "series": "ÚLTIMA HORA",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "music_volume": 0.08,
+ "voice": "/home/claude/canal/short/n4/voz_puente.mp3",
+ "voice_delay": 0.15,
+ "footer": "Fuentes: comparecencia en el Congreso (vía Xataka y The Objective) · 04/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.3,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/n4/puente_3.jpg",
+   "kicker": "ÚLTIMA HORA · GOBIERNO",
+   "line": "Dimite",
+   "pill": "Óscar Puente",
+   "sub": "Ministro de Transportes"
+  },
+  {
+   "type": "text",
+   "dur": 6.15,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/n4/puente_1.jpg",
+   "kicker": "DÓNDE Y CUÁNDO",
+   "title": "Lo anunció el martes en el Congreso",
+   "sub": "Tras más de 4 horas de comparecencia por el accidente de Urda"
+  },
+  {
+   "type": "text",
+   "dur": 4.05,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/n4/puente_1.jpg",
+   "kicker": "SUS PALABRAS",
+   "title": "«Una medida necesaria y positiva»",
+   "sub": "Así definió su salida"
+  },
+  {
+   "type": "text",
+   "dur": 5.1,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/n4/puente_3.jpg",
+   "kicker": "ELECCIONES DEL 29N",
+   "title": "No irá en las listas del PSOE",
+   "sub": "«Por dignidad política»"
+  },
+  {
+   "type": "text",
+   "dur": 2.85,
+   "accent": "sober",
+   "photo": "/home/claude/canal/short/n4/puente_2.jpg",
+   "kicker": "¿Y AHORA?",
+   "title": "Aún no se sabe quién le sustituye",
+   "sub": "Al frente del Ministerio de Transportes"
+  },
+  {
+   "type": "cta",
+   "dur": 2.55,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Fotos: Dilema (CC BY 3.0), AMPERIO (CC BY-SA 4.0), Zaqarbal (CC BY-SA 3.0)"
+  }
+ ]
+}

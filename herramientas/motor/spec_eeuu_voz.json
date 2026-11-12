@@ -1,0 +1,82 @@
+{
+ "out": "/home/claude/canal/short/short_eeuu_vota_hoy_voz.mp4",
+ "topic": "Internacional · 3 de noviembre",
+ "series": "EXPLICADO FÁCIL",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "footer": "Fuentes: Congreso de EE. UU., 270toWin (23/10), APSA · 03/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 5.5,
+   "kicker": "HOY · MARTES 3 DE NOVIEMBRE",
+   "line": "EE. UU.",
+   "pill": "vota hoy",
+   "sub": "Se juega el control del Congreso",
+   "photo": "/home/claude/canal/short/eeuu/eeuu_1.jpg",
+   "photo_center": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "type": "text",
+   "dur": 6.65,
+   "kicker": "QUÉ SE VOTA",
+   "title": "Toda la Cámara y 35 escaños del Senado",
+   "sub": "Y 36 gobernadores. Trump sigue en la Casa Blanca hasta 2029",
+   "photo": "/home/claude/canal/short/eeuu/eeuu_3.jpg"
+  },
+  {
+   "type": "bars",
+   "dur": 3.95,
+   "kicker": "ASÍ ESTÁ HOY",
+   "title": "Senado (100 escaños)",
+   "unit": "",
+   "decimals": 0,
+   "rows": [
+    [
+     "Republicanos",
+     53,
+     "Mayoría actual",
+     false
+    ],
+    [
+     "Demócratas",
+     47,
+     "Incluye 2 independientes",
+     false
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "dur": 4.7,
+   "kicker": "LO QUE NECESITA CADA UNO",
+   "title": "Demócratas: necesitan 4 escaños más en cada cámara",
+   "sub": "Los republicanos defienden la mayoría en las dos"
+  },
+  {
+   "type": "text",
+   "dur": 5.0,
+   "kicker": "LAS PREVISIONES",
+   "title": "Cámara: ventaja demócrata. Senado: muy reñido",
+   "sub": "5 estados del Senado, en el aire según el consenso de analistas",
+   "photo": "/home/claude/canal/short/eeuu/eeuu_1.jpg",
+   "photo_center": [
+    0.42,
+    0.5
+   ]
+  },
+  {
+   "type": "cta",
+   "dur": 5.7,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "Foto: Architect of the Capitol (dominio público) · Funknendai (CC0)",
+   "next": "Quién gana en EE. UU. y qué cambia"
+  }
+ ],
+ "voice": "/home/claude/canal/short/eeuu/voz.mp3",
+ "music_volume": 0.09
+}

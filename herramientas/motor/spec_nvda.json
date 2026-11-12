@@ -1,0 +1,14 @@
+{"out": "/home/claude/canal/short/nvda/short_nvda_prev.mp4", "topic": "Bolsa · jueves 12 de noviembre", "series": "ÚLTIMA HORA", "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3", "music_start": 22.5, "music_volume": 0.06,
+ "footer": "Fuentes: WSJ · Reuters · Bloomberg · Yahoo Finance · 12/11/2026",
+ "scenes": [
+  {"type": "hook", "dur": 3.0, "photo": "/home/claude/canal/short/nvda/2105927.jpg", "kicker": "BOLSA · INTELIGENCIA ARTIFICIAL", "line": "Nvidia se desploma", "pill": "y arrastra a Wall Street", "sub": ""},
+  {"type": "big", "dur": 2.6, "photo": "/home/claude/canal/short/nvda/6770610.jpg", "kicker": "MIÉRCOLES 11 · CIERRE", "from": 0, "to": 2.9, "decimals": 1, "prefix": "+", "suffix": " %", "unit": "173,73 $ por acción", "note": "El S&P 500 subió un 1,3 %"},
+  {"type": "big", "dur": 2.6, "accent": "warm", "photo": "/home/claude/canal/short/nvda/39494584.jpg", "kicker": "ESA MISMA NOCHE", "from": 0, "to": 8, "decimals": 0, "prefix": "−", "suffix": " %", "unit": "fuera de hora", "note": "Más de un 8 % de caída"},
+  {"type": "text", "dur": 4.2, "photo": "/home/claude/canal/short/nvda/28962712.jpg", "kicker": "EXCLUSIVA DEL WALL STREET JOURNAL", "title": "El consejo prepara la salida de su CEO", "sub": "Jensen Huang, cofundador de Nvidia"},
+  {"type": "big", "dur": 3.6, "accent": "warm", "photo": "/home/claude/canal/short/nvda/534216.jpg", "kicker": "VALOR PERDIDO", "from": 0, "to": 600000, "decimals": 0, "prefix": "≈", "suffix": "", "unit": "millones de dólares", "note": "Desde que se conoció la investigación interna"},
+  {"type": "big", "dur": 2.8, "accent": "warm", "photo": "/home/claude/canal/short/nvda/38905596.jpg", "kicker": "DESDE SU RÉCORD DEL 6 DE OCTUBRE", "from": 0, "to": 27, "decimals": 0, "prefix": "−", "suffix": " %", "unit": "239,24 $ → 173,73 $", "note": "Cierre del miércoles 11"},
+  {"type": "bars", "dur": 3.6, "photo": "/home/claude/canal/short/nvda/38375328.jpg", "kicker": "FUTUROS · JUEVES 12", "title": "Wall Street abre a la baja", "unit": " %", "prefix": "−", "decimals": 1, "rows": [["Nvidia", 8.0, "Fuera de hora", true], ["Nasdaq 100", 0.8, "Futuros", false], ["S&P 500", 0.4, "Futuros", false]]},
+  {"type": "text", "dur": 4.0, "photo": "/home/claude/canal/short/nvda/37368175.jpg", "kicker": "¿Y A TI QUÉ?", "title": "Si tienes un fondo indexado, tienes Nvidia", "sub": "Es de las que más pesan en el S&P 500"},
+  {"type": "text", "dur": 2.8, "photo": "/home/claude/canal/short/nvda/37052613.jpg", "kicker": "OJO AL MARTES 17", "title": "Nvidia presenta resultados", "sub": "Primera prueba tras la crisis"},
+  {"type": "cta", "dur": 3.0, "photo": "/home/claude/canal/short/nvda/33471680.jpg", "line1": "Una noticia al día,", "line2": "explicada fácil", "note": "Información, no asesoramiento · Fotos: Pexels"}
+ ]}

@@ -1,0 +1,485 @@
+{
+ "title": "Elecciones 29N: qué propone cada partido para tu bolsillo",
+ "paras": [
+  {
+   "id": "intro1",
+   "sec": "INTRO",
+   "text": "El domingo 29 de noviembre hay elecciones generales. Y la gran pregunta es sencilla: ¿qué quiere hacer cada partido con tu casa, tu sueldo, tus impuestos y tu pensión?"
+  },
+  {
+   "id": "intro2",
+   "sec": "INTRO",
+   "text": "Vamos a verlo tema a tema, con cinco partidos de ámbito estatal: PP, PSOE, Vox, Sumar y Podemos. Siempre en el mismo orden, el de los escaños de 2023, y sin opinar: solo lo que proponen."
+  },
+  {
+   "id": "intro3",
+   "sec": "INTRO",
+   "text": "Un aviso importante. El PP ya ha presentado su programa completo y Vox su plan económico. PSOE, Sumar y Podemos todavía no han publicado el programa entero, así que usamos lo que han anunciado hasta hoy, jueves 12 de noviembre."
+  },
+  {
+   "id": "viv0",
+   "sec": "VIVIENDA",
+   "text": "Empezamos por lo que más preocupa: la vivienda."
+  },
+  {
+   "id": "viv_pp",
+   "sec": "VIVIENDA",
+   "party": "PP",
+   "text": "El PP promete construir un millón de viviendas y dar licencias de obra en un máximo de tres meses. Para los menores de 40, propone bajar el IVA de la primera vivienda nueva del diez al cuatro por ciento, un aval público de hasta el veinte por ciento del precio y una hucha para ahorrar la entrada con ventajas fiscales. Además, quiere derogar la ley estatal de vivienda y eliminar las zonas tensionadas.",
+   "pts": [
+    "1 millón de viviendas",
+    "Licencias en máx. 3 meses",
+    "IVA 1ª vivienda nueva: 10 % → 4 % (<40 años)",
+    "Aval público hasta el 20 %",
+    "Derogar la ley de vivienda"
+   ],
+   "pos": [
+    0.06699751861042183,
+    0.1315136476426799,
+    0.34739454094292804,
+    0.5136476426799007,
+    0.8312655086848635
+   ]
+  },
+  {
+   "id": "viv_psoe",
+   "sec": "VIVIENDA",
+   "party": "PSOE",
+   "text": "El PSOE quiere mantener y desarrollar esa ley de vivienda, ampliar la vivienda pública con su plan estatal de siete mil millones de euros, y que las casas pagadas con dinero público sean protegidas para siempre. También plantea ventajas fiscales a los caseros que bajen o congelen el alquiler, y regular los alquileres de temporada y por habitaciones.",
+   "pts": [
+    "Mantener la ley de vivienda",
+    "Plan estatal: 7.000 M€",
+    "Vivienda pública protegida para siempre",
+    "Ventajas fiscales a caseros que bajen el alquiler",
+    "Regular alquiler de temporada y por habitaciones"
+   ],
+   "pos": [
+    0.042735042735042736,
+    0.2678062678062678,
+    0.5327635327635327,
+    0.6495726495726496,
+    0.8433048433048433
+   ]
+  },
+  {
+   "id": "viv_vox",
+   "sec": "VIVIENDA",
+   "party": "Vox",
+   "text": "Vox también quiere derogar la ley de vivienda. Propone eliminar el IVA en la compra de la primera vivienda, liberalizar el suelo para construir más, recuperar la deducción por compra de vivienda habitual, y que el propietario recupere su casa de inmediato si el inquilino deja de pagar.",
+   "pts": [
+    "Derogar la ley de vivienda",
+    "IVA 0 en la 1ª vivienda",
+    "Liberalizar el suelo",
+    "Recuperar la deducción por compra",
+    "Recuperar la casa de inmediato si no se paga"
+   ],
+   "pos": [
+    0.06643356643356643,
+    0.19230769230769232,
+    0.3776223776223776,
+    0.5664335664335665,
+    0.7902097902097902
+   ]
+  },
+  {
+   "id": "viv_sumar",
+   "sec": "VIVIENDA",
+   "party": "Sumar",
+   "text": "Sumar, que se presenta como Frente Amplio, propone más regulación del alquiler, con límites de precio en zonas tensionadas, poner en el mercado viviendas vacías, y limitar las compras de casas por parte de fondos de inversión.",
+   "pts": [
+    "Más regulación del alquiler",
+    "Límites de precio en zonas tensionadas",
+    "Movilizar viviendas vacías",
+    "Limitar compras de fondos de inversión"
+   ],
+   "pos": [
+    0.24336283185840707,
+    0.37168141592920356,
+    0.6814159292035398,
+    0.911504424778761
+   ]
+  },
+  {
+   "id": "viv_pod",
+   "sec": "VIVIENDA",
+   "party": "Podemos",
+   "text": "Podemos, con Irene Montero como candidata, propone regular el precio de la vivienda, sobre todo del alquiler, más intervención sobre grandes propietarios y fondos, y reforzar la vivienda social. Su lema es que la vivienda no puede ser un negocio.",
+   "pts": [
+    "Regular el precio de la vivienda",
+    "Sobre todo el alquiler",
+    "Más control a grandes propietarios y fondos",
+    "Reforzar la vivienda social"
+   ],
+   "pos": [
+    0.2073170731707317,
+    0.4065040650406504,
+    0.4634146341463415,
+    0.7235772357723578
+   ]
+  },
+  {
+   "id": "imp0",
+   "sec": "IMPUESTOS",
+   "text": "Segundo tema: los impuestos. Aquí las diferencias son enormes."
+  },
+  {
+   "id": "imp_pp",
+   "sec": "IMPUESTOS",
+   "party": "PP",
+   "text": "El PP propone que los jóvenes de 18 a 35 años no paguen IRPF en su primer año como contribuyentes, y menos los tres siguientes. Que quien cobra el salario mínimo no pague IRPF. Ajustar los tramos a la inflación. IVA cero en alimentos básicos. Y que los autónomos que facturen menos de ochenta y cinco mil euros no tengan que cobrar IVA.",
+   "pts": [
+    "IRPF 0 el 1er año para jóvenes de 18–35",
+    "Salario mínimo sin IRPF",
+    "Tramos ajustados a la inflación",
+    "IVA 0 en alimentos básicos",
+    "Autónomos <85.000 €: sin IVA"
+   ],
+   "pos": [
+    0.13690476190476192,
+    0.4375,
+    0.5625,
+    0.6309523809523809,
+    0.7529761904761905
+   ]
+  },
+  {
+   "id": "imp_psoe",
+   "sec": "IMPUESTOS",
+   "party": "PSOE",
+   "text": "El PSOE no promete bajadas generales. Defiende un sistema más progresivo, en el que paga más quien más tiene, más lucha contra el fraude, y que los autónomos coticen según sus ingresos reales.",
+   "pts": [
+    "Sin bajadas generales",
+    "Sistema más progresivo",
+    "Más lucha contra el fraude",
+    "Autónomos: cotizar por ingresos reales"
+   ],
+   "pos": [
+    0.041666666666666664,
+    0.3229166666666667,
+    0.6770833333333334,
+    0.7708333333333334
+   ]
+  },
+  {
+   "id": "imp_vox",
+   "sec": "IMPUESTOS",
+   "party": "Vox",
+   "text": "Vox propone no pagar IRPF por los primeros veintidós mil euros, y después solo dos tramos, del quince por ciento hasta setenta mil euros y del veinticinco por encima. También bajar el impuesto de sociedades al quince por ciento, y reducir el IVA.",
+   "pts": [
+    "IRPF 0 hasta 22.000 €",
+    "Solo 2 tramos: 15 % y 25 %",
+    "Sociedades al 15 %",
+    "Bajar el IVA"
+   ],
+   "pos": [
+    0.17479674796747968,
+    0.32113821138211385,
+    0.7967479674796748,
+    0.9390243902439024
+   ]
+  },
+  {
+   "id": "imp_sumar",
+   "sec": "IMPUESTOS",
+   "party": "Sumar",
+   "text": "Sumar quiere que aporten más las grandes herencias y los grandes patrimonios, y un sistema más progresivo. Como el PP, propone que los pequeños autónomos que facturen menos de ochenta y cinco mil euros no tengan que cobrar IVA.",
+   "pts": [
+    "Más impuesto a grandes herencias",
+    "Y a grandes patrimonios",
+    "Sistema más progresivo",
+    "Autónomos <85.000 €: sin IVA"
+   ],
+   "pos": [
+    0.18061674008810572,
+    0.28634361233480177,
+    0.4185022026431718,
+    0.6343612334801763
+   ]
+  },
+  {
+   "id": "imp_pod",
+   "sec": "IMPUESTOS",
+   "party": "Podemos",
+   "text": "Podemos pide que paguen más las grandes empresas y las grandes fortunas, y gravar más los beneficios extraordinarios. No ha dado tipos concretos.",
+   "pts": [
+    "Más impuestos a grandes empresas",
+    "Y a grandes fortunas",
+    "Gravar beneficios extraordinarios",
+    "Sin tipos concretos todavía"
+   ],
+   "pos": [
+    0.2206896551724138,
+    0.3793103448275862,
+    0.6206896551724138,
+    0.8896551724137931
+   ]
+  },
+  {
+   "id": "sue0",
+   "sec": "SUELDOS",
+   "text": "Tercer tema: tu sueldo y tus horas de trabajo. Hoy el salario mínimo es de mil doscientos veintiún euros en catorce pagas, y la jornada máxima, de cuarenta horas."
+  },
+  {
+   "id": "sue_pp",
+   "sec": "SUELDOS",
+   "party": "PP",
+   "text": "El PP no fija una cifra de salario mínimo: quiere ligar las subidas a la productividad, y que el salario mínimo quede siempre libre de IRPF. Rechaza reducir la jornada por ley con el mismo sueldo, propone ampliar el límite de horas extra, y quiere un año sin cotizaciones por el primer trabajador que contrate un autónomo.",
+   "pts": [
+    "Sin cifra de salario mínimo",
+    "Subidas ligadas a la productividad",
+    "Salario mínimo siempre sin IRPF",
+    "No a bajar jornada con el mismo sueldo",
+    "Más horas extra permitidas"
+   ],
+   "pos": [
+    0.018633540372670808,
+    0.2267080745341615,
+    0.391304347826087,
+    0.43788819875776397,
+    0.7018633540372671
+   ]
+  },
+  {
+   "id": "sue_psoe",
+   "sec": "SUELDOS",
+   "party": "PSOE",
+   "text": "El PSOE quiere fijar por ley el salario mínimo en el sesenta por ciento del salario medio, bajar la jornada a treinta y seis horas semanales antes de 2030, mantener la reforma laboral y aprobar un estatuto del becario.",
+   "pts": [
+    "Salario mínimo = 60 % del salario medio",
+    "Jornada de 36 h antes de 2030",
+    "Mantener la reforma laboral",
+    "Estatuto del becario"
+   ],
+   "pos": [
+    0.24311926605504589,
+    0.5045871559633027,
+    0.7706422018348624,
+    0.963302752293578
+   ]
+  },
+  {
+   "id": "sue_vox",
+   "sec": "SUELDOS",
+   "party": "Vox",
+   "text": "Vox se opone a reducir la jornada por ley. Su idea es bajar las cotizaciones y los costes laborales para que suba el sueldo neto, y que no pague cuota de autónomos quien ingrese menos del salario mínimo.",
+   "pts": [
+    "No a reducir la jornada por ley",
+    "Bajar cotizaciones y costes laborales",
+    "Más sueldo neto",
+    "Sin cuota de autónomos si ganas < SMI"
+   ],
+   "pos": [
+    0.019704433497536946,
+    0.31527093596059114,
+    0.5763546798029556,
+    0.7142857142857143
+   ]
+  },
+  {
+   "id": "sue_sumar",
+   "sec": "SUELDOS",
+   "party": "Sumar",
+   "text": "Sumar quiere subir el salario mínimo por encima de la inflación, y seguir reduciendo el tiempo de trabajo, aunque todavía sin cifra ni calendario.",
+   "pts": [
+    "Salario mínimo por encima del IPC",
+    "Reducir el tiempo de trabajo",
+    "Sin cifra ni calendario aún"
+   ],
+   "pos": [
+    0.2534246575342466,
+    0.5068493150684932,
+    0.8356164383561644
+   ]
+  },
+  {
+   "id": "sue_pod",
+   "sec": "SUELDOS",
+   "party": "Podemos",
+   "text": "Podemos propone un salario mínimo de mil ochocientos euros por ley, y una jornada de treinta horas semanales.",
+   "pts": [
+    "Salario mínimo: 1.800 €",
+    "Jornada de 30 h semanales"
+   ],
+   "pos": [
+    0.3394495412844037,
+    0.7798165137614679
+   ]
+  },
+  {
+   "id": "pen0",
+   "sec": "PENSIONES",
+   "text": "Cuarto tema: las pensiones. Según el Gobierno, la pensión media de jubilación es de unos mil quinientos setenta y seis euros al mes, y se revaloriza con el IPC."
+  },
+  {
+   "id": "pen_pp",
+   "sec": "PENSIONES",
+   "party": "PP",
+   "text": "El PP promete que las pensiones seguirán subiendo con el IPC, y a la vez hacer el sistema sostenible, porque dice que tal como está no aguanta. Todavía no ha detallado cambios en cotizaciones ni en la edad de jubilación.",
+   "pts": [
+    "Subir con el IPC",
+    "Y hacer el sistema sostenible",
+    "Sin detalle de cotizaciones ni edad"
+   ],
+   "pos": [
+    0.14545454545454545,
+    0.4090909090909091,
+    0.6545454545454545
+   ]
+  },
+  {
+   "id": "pen_psoe",
+   "sec": "PENSIONES",
+   "party": "PSOE",
+   "text": "El PSOE defiende el sistema actual y sus últimas reformas, y propone llevar a la Constitución que las pensiones suban cada año con el IPC.",
+   "pts": [
+    "Mantener el sistema y sus reformas",
+    "Subida con el IPC en la Constitución"
+   ],
+   "pos": [
+    0.057971014492753624,
+    0.5869565217391305
+   ]
+  },
+  {
+   "id": "pen_vox",
+   "sec": "PENSIONES",
+   "party": "Vox",
+   "text": "Vox plantea un sistema mixto: mantener el actual y añadir una parte de capitalización, es decir, que una parte de lo que cotizas se ahorre a tu nombre, con Suecia como modelo. Niega que quiera privatizar las pensiones.",
+   "pts": [
+    "Sistema mixto: reparto + capitalización",
+    "Modelo: Suecia",
+    "Niega privatizar las pensiones"
+   ],
+   "pos": [
+    0.06880733944954129,
+    0.7155963302752294,
+    0.8853211009174312
+   ]
+  },
+  {
+   "id": "pen_sumar",
+   "sec": "PENSIONES",
+   "party": "Sumar",
+   "text": "Sumar defiende el sistema público, la subida con el IPC, y rechaza cualquier recorte. Quiere reforzar los ingresos con más empleo y mejores salarios.",
+   "pts": [
+    "Sistema público",
+    "Subida con el IPC",
+    "No a los recortes",
+    "Más ingresos vía empleo y salarios"
+   ],
+   "pos": [
+    0.12080536912751678,
+    0.348993288590604,
+    0.5167785234899329,
+    0.7114093959731543
+   ]
+  },
+  {
+   "id": "pen_pod",
+   "sec": "PENSIONES",
+   "party": "Podemos",
+   "text": "Podemos no ha presentado todavía una propuesta concreta de pensiones.",
+   "pts": [
+    "Sin propuesta concreta todavía"
+   ],
+   "pos": [
+    0.11594202898550725
+   ]
+  },
+  {
+   "id": "luz0",
+   "sec": "ENERGÍA",
+   "text": "Y quinto tema: la luz y la energía."
+  },
+  {
+   "id": "luz_pp",
+   "sec": "ENERGÍA",
+   "party": "PP",
+   "text": "El PP quiere eliminar el calendario de cierre de las centrales nucleares, si lo aprueba el Consejo de Seguridad Nuclear, quitar el impuesto del siete por ciento a la generación eléctrica, y crear una única tarifa social para los hogares vulnerables.",
+   "pts": [
+    "Quitar el calendario de cierre nuclear*",
+    "Eliminar el impuesto del 7 % a la generación",
+    "Tarifa social única",
+    "*Si lo aprueba el CSN"
+   ],
+   "pos": [
+    0.10040160642570281,
+    0.5261044176706827,
+    0.8273092369477911,
+    0.1304016064257028
+   ]
+  },
+  {
+   "id": "luz_psoe",
+   "sec": "ENERGÍA",
+   "party": "PSOE",
+   "text": "El PSOE apuesta por seguir con la transición energética: más renovables y reindustrialización.",
+   "pts": [
+    "Seguir con la transición energética",
+    "Más renovables",
+    "Reindustrialización"
+   ],
+   "pos": [
+    0.3617021276595745,
+    0.648936170212766,
+    0.7872340425531915
+   ]
+  },
+  {
+   "id": "luz_vox",
+   "sec": "ENERGÍA",
+   "party": "Vox",
+   "text": "Vox quiere alargar las nucleares y construir otras nuevas, y bajar o eliminar los impuestos de la luz y los carburantes.",
+   "pts": [
+    "Alargar las nucleares",
+    "Construir nuevas",
+    "Bajar o quitar impuestos de luz y carburantes"
+   ],
+   "pos": [
+    0.09166666666666666,
+    0.425,
+    0.6833333333333333
+   ]
+  },
+  {
+   "id": "luz_sumar",
+   "sec": "ENERGÍA",
+   "party": "Sumar",
+   "text": "Sumar apuesta por renovables, almacenamiento e inversión industrial, y se opone a alargar algunas nucleares.",
+   "pts": [
+    "Renovables y almacenamiento",
+    "Inversión industrial",
+    "No a alargar algunas nucleares"
+   ],
+   "pos": [
+    0.16666666666666666,
+    0.5277777777777778,
+    0.6574074074074074
+   ]
+  },
+  {
+   "id": "luz_pod",
+   "sec": "ENERGÍA",
+   "party": "Podemos",
+   "text": "Y Podemos propone crear una empresa pública de energía, con más intervención del Estado en sectores estratégicos.",
+   "pts": [
+    "Empresa pública de energía",
+    "Más Estado en sectores estratégicos"
+   ],
+   "pos": [
+    0.24778761061946902,
+    0.5663716814159292
+   ]
+  },
+  {
+   "id": "fin1",
+   "sec": "RESUMEN",
+   "text": "En resumen: PP y Vox apuestan por bajar impuestos, construir más y derogar la ley de vivienda. PSOE, Sumar y Podemos, por regular el alquiler, subir el salario mínimo y reducir la jornada, con distintos grados."
+  },
+  {
+   "id": "fin2",
+   "sec": "RESUMEN",
+   "text": "Cuando PSOE, Sumar y Podemos publiquen su programa completo, lo actualizaremos. Compara, mira los detalles y decide tú. Si te ha servido, suscríbete: cada día, la economía que te afecta, explicada fácil."
+  }
+ ]
+}

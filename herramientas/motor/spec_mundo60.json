@@ -1,0 +1,107 @@
+{
+ "out": "/home/claude/canal/short/short_mundo_60s_30oct.mp4",
+ "topic": "Resumen · 30 de octubre",
+ "series": "EL MUNDO HOY",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "footer": "Fuentes en la descripción · 30/10/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 3.0,
+   "kicker": "EL MUNDO EN 60 SEGUNDOS",
+   "line": "Hackeo récord",
+   "pill": "en cripto",
+   "sub": "Y mucho más. Vamos"
+  },
+  {
+   "type": "text",
+   "dur": 4.6,
+   "kicker": "ESPAÑA · URDA",
+   "kcol": [
+    255,
+    90,
+    110
+   ],
+   "title": "69 fallecidos en el choque de trenes",
+   "sub": "Se investiga un posible error humano en el control de Adif y el fallo del sistema LZB"
+  },
+  {
+   "type": "big",
+   "dur": 4.2,
+   "accent": "warm",
+   "kicker": "CRIPTO · BINANCE",
+   "from": 0,
+   "to": 6300,
+   "unit": "millones de $",
+   "note": "Binance lo confirma: el mayor hackeo cripto de la historia"
+  },
+  {
+   "type": "text",
+   "dur": 4.6,
+   "kicker": "CRIPTO · EFECTOS",
+   "title": "Bitcoin cae hasta unos 78.000 $",
+   "sub": "Más de 2.500 M$ congelados y 1.540 M$ liquidados en 24 h"
+  },
+  {
+   "type": "text",
+   "dur": 4.4,
+   "kicker": "ISRAEL",
+   "title": "Netanyahu se queda a 8 escaños de la mayoría",
+   "sub": "Con el 90 % escrutado. Podría haber nuevas elecciones"
+  },
+  {
+   "type": "text",
+   "dur": 4.2,
+   "kicker": "ORIENTE MEDIO",
+   "title": "Qatar propone a Irán un acuerdo para acabar la guerra",
+   "sub": "Un responsable iraní ya lo ha rechazado"
+  },
+  {
+   "type": "big",
+   "dur": 4.0,
+   "accent": "warm",
+   "kicker": "BRASIL · LULA GANA",
+   "from": 0,
+   "to": 51.76,
+   "decimals": 2,
+   "suffix": " %",
+   "note": "Cuarto mandato tras vencer a Flávio Bolsonaro"
+  },
+  {
+   "type": "big",
+   "dur": 4.0,
+   "accent": "warm",
+   "kicker": "EE. UU. VOTA EL MARTES",
+   "from": 0,
+   "to": 79,
+   "suffix": " %",
+   "note": "Opciones de los demócratas de ganar la Cámara · Decision Desk HQ"
+  },
+  {
+   "type": "text",
+   "dur": 4.2,
+   "kicker": "DINERO",
+   "title": "El BCE congela los tipos en el 2,50 %",
+   "sub": "Y Lagarde anuncia que deja el BCE en febrero"
+  },
+  {
+   "type": "big",
+   "dur": 4.0,
+   "accent": "warm",
+   "kicker": "PETRÓLEO",
+   "from": 0,
+   "to": 114,
+   "suffix": " $",
+   "unit": "el barril de Brent",
+   "note": "Un 60 % más que antes de la guerra con Irán"
+  },
+  {
+   "type": "cta",
+   "dur": 3.6,
+   "line1": "Síguenos para el",
+   "line2": "resumen de mañana",
+   "note": "Información, no asesoramiento financiero"
+  }
+ ]
+}

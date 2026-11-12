@@ -1,0 +1,82 @@
+{
+ "out": "/home/claude/canal/short/short_ciberataque_neveras.mp4",
+ "topic": "Europa · 2 de noviembre",
+ "series": "ÚLTIMA HORA",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3",
+ "music_start": 22.5,
+ "footer": "Fuentes: SuperValu, Coop, ICA y Comisión Europea · 02/11/2026",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.8,
+   "kicker": "ÚLTIMA HORA · EUROPA",
+   "line": "Hackean las neveras",
+   "pill": "de los súper",
+   "sub": "Ataques informáticos en 5 países"
+  },
+  {
+   "type": "text",
+   "dur": 3.4,
+   "kicker": "QUÉ HA PASADO",
+   "title": "Cambiaron a distancia la temperatura del frío",
+   "sub": "En Estonia pusieron congeladores a 50 °C"
+  },
+  {
+   "type": "bars",
+   "dur": 3.6,
+   "kicker": "TIENDAS AFECTADAS",
+   "title": "Confirmadas por las cadenas",
+   "unit": "",
+   "decimals": 0,
+   "rows": [
+    [
+     "SuperValu",
+     13,
+     "Irlanda",
+     true
+    ],
+    [
+     "Coop",
+     6,
+     "Suecia",
+     false
+    ],
+    [
+     "Spar",
+     5,
+     "Bélgica",
+     false
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "kicker": "DÓNDE",
+   "title": "Irlanda, Suecia, Bélgica, Luxemburgo y Estonia",
+   "sub": "Francia ya sufrió otro ataque hace unas semanas"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "kicker": "¿QUIÉN HA SIDO?",
+   "title": "Nadie lo ha reivindicado",
+   "sub": "Suecia y la Comisión Europea piden más ciberseguridad"
+  },
+  {
+   "type": "text",
+   "dur": 3.2,
+   "kicker": "¿POR QUÉ ES POSIBLE?",
+   "title": "Muchas neveras están conectadas a internet",
+   "sub": "Y no todas tienen la seguridad al día"
+  },
+  {
+   "type": "cta",
+   "dur": 3.4,
+   "line1": "Una noticia al día,",
+   "line2": "explicada fácil",
+   "note": "España no figura entre los países afectados",
+   "next": "EE. UU. vota: qué se juega"
+  }
+ ]
+}

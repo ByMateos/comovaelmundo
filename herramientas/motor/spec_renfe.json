@@ -1,0 +1,17 @@
+{"out": "/home/claude/canal/short/renfe/short_renfe_minimos.mp4", "topic": "Huelga Renfe · lunes 10", "series": "ÚLTIMA HORA",
+ "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3", "music_start": 22.5, "music_volume": 0.06,
+ "voice": "/home/claude/canal/short/renfe/voz_renfe.mp3", "voice_delay": 0.4,
+ "footer": "Fuente: Ministerio de Transportes (servicios mínimos, 07/11/2026)",
+ "scenes": [
+  {"type": "hook", "dur": 3.6, "photo": "/home/claude/canal/short/renfe/20563839.jpg", "kicker": "MAÑANA, LUNES 10", "line": "Huelga de maquinistas", "pill": "en Renfe", "sub": ""},
+  {"type": "hook", "dur": 1.2, "photo": "/home/claude/canal/short/renfe/24973397.jpg", "kicker": "", "line": "¿Tienes", "pill": "tren?", "sub": ""},
+  {"type": "text", "dur": 2.3, "photo": "/home/claude/canal/short/renfe/13221580.jpg", "kicker": "FIJADOS POR TRANSPORTES", "title": "Servicios mínimos", "sub": "Lunes 10 y jueves 12"},
+  {"type": "big", "dur": 4.3, "photo": "/home/claude/canal/short/renfe/39659759.jpg", "kicker": "AVE Y LARGA DISTANCIA", "from": 0, "to": 72, "decimals": 0, "suffix": " %", "unit": "de los trenes", "note": "Circularán 7 de cada 10"},
+  {"type": "big", "dur": 3.2, "photo": "/home/claude/canal/short/renfe/20425279.jpg", "kicker": "MEDIA DISTANCIA", "from": 0, "to": 65, "decimals": 0, "suffix": " %", "unit": "de los trenes", "note": ""},
+  {"type": "big", "dur": 3.3, "photo": "/home/claude/canal/short/huelga/38954119.jpg", "kicker": "CERCANÍAS · HORA PUNTA", "from": 0, "to": 75, "decimals": 0, "suffix": " %", "unit": "de los trenes", "note": "6–9 h · 13:30–15:30 h · 18:30–20:30 h"},
+  {"type": "big", "dur": 2.0, "accent": "warm", "photo": "/home/claude/canal/short/renfe/14715657.jpg", "kicker": "CERCANÍAS · RESTO DEL DÍA", "from": 0, "to": 50, "decimals": 0, "suffix": " %", "unit": "la mitad", "note": ""},
+  {"type": "text", "dur": 2.1, "photo": "/home/claude/canal/short/huelga/16154260.jpg", "kicker": "JUEVES 12", "title": "Paros parciales", "sub": "Mismos servicios mínimos"},
+  {"type": "text", "dur": 2.3, "photo": "/home/claude/canal/short/huelga/10984775.jpg", "kicker": "MIÉRCOLES 11", "title": "Huelga general", "sub": "24 horas en toda España"},
+  {"type": "text", "dur": 3.3, "photo": "/home/claude/canal/short/renfe/19910205.jpg", "kicker": "ANTES DE SALIR", "title": "Consulta tu tren en la web o la app de Renfe", "sub": "Antes de ir a la estación"},
+  {"type": "cta", "dur": 3.0, "photo": "/home/claude/canal/short/huelga/31193738.jpg", "line1": "Una noticia al día,", "line2": "explicada fácil", "note": "Información de servicio · Imágenes: Pexels"}
+ ]}
