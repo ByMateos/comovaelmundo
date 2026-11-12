@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calculadora de hipoteca con el euríbor de hoy (noviembre 2026) · Cómo Va el Mundo</title>
+<meta name="description" content="Calcula gratis la cuota de tu hipoteca con el euríbor de octubre de 2026 (3,239 %). Mira cuánto pagas al mes, cuántos intereses y cuánto cambia si el euríbor sube o baja.">
+<link rel="canonical" href="https://comovaelmundo.pages.dev/hipoteca/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cómo Va el Mundo">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="https://comovaelmundo.pages.dev/hipoteca/">
+<meta property="og:title" content="Calculadora de hipoteca con el euríbor de hoy">
+<meta property="og:description" content="¿Cuánto pagarás al mes con el euríbor al 3,239 %? Calcula tu cuota, los intereses y qué pasa si sube o baja.">
+<meta property="og:image" content="https://comovaelmundo.pages.dev/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0d1a">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"WebApplication","name":"Calculadora de hipoteca con euríbor","url":"https://comovaelmundo.pages.dev/hipoteca/","applicationCategory":"FinanceApplication","operatingSystem":"Web","inLanguage":"es","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"publisher":{"@type":"Organization","name":"Cómo Va el Mundo","url":"https://comovaelmundo.pages.dev/"}},
+ {"@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"¿Qué es el euríbor?","acceptedAnswer":{"@type":"Answer","text":"Es el tipo de interés medio al que los bancos europeos se prestan dinero entre ellos a un año. En una hipoteca variable pagas el euríbor más un diferencial fijo que pacta tu banco."}},
+  {"@type":"Question","name":"¿Cada cuánto se revisa una hipoteca variable?","acceptedAnswer":{"@type":"Answer","text":"Normalmente cada 6 o 12 meses, según tu contrato. En cada revisión el banco toma el euríbor de un mes concreto y recalcula la cuota para el siguiente periodo."}},
+  {"@type":"Question","name":"¿Cómo se calcula la cuota de una hipoteca?","acceptedAnswer":{"@type":"Answer","text":"Con el sistema francés: la cuota es igual cada mes y se calcula con el capital pendiente, el tipo de interés mensual y el número de meses que quedan. Al principio pagas sobre todo intereses y al final, sobre todo capital."}}
+ ]}
+]}
+</script>
+<style>
+:root{
+  --ink:#0b0d1a;--panel:#141833;--panel2:#10132a;--line:#2a3060;--fg:#eef0fa;--muted:#a3a9c9;
+  --gold:#ffc83d;--amber:#ff9e2c;--cyan:#38e1ff;--red:#f02440;--green:#5fe0a0;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55;overflow-x:hidden}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--ink) 86%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.brand img{width:40px;height:40px}
+.brand b{font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:-.01em;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:600;text-decoration:none;border-radius:999px;padding:10px 18px;font-size:15px;transition:transform .15s ease,box-shadow .2s ease;white-space:nowrap}
+.btn-sub{background:var(--red);color:#fff;box-shadow:0 6px 24px -8px var(--red)}
+.btn-sub:hover{transform:translateY(-1px)}
+.btn-ghost{border:1px solid var(--line);color:var(--fg)}
+.btn-ghost:hover{border-color:var(--cyan)}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.crumb{font-size:14px;color:var(--muted);text-decoration:none}
+.crumb:hover{color:var(--fg)}
+
+.hero{padding-block:40px 18px}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(32px,5.2vw,58px);line-height:1.04;letter-spacing:-.018em;margin:12px 0 14px;text-wrap:balance}
+h1 em{font-style:normal;color:var(--gold)}
+.lede{max-width:62ch;color:var(--muted);font-size:18px;margin:0}
+.lede b{color:var(--fg)}
+
+.calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);min-width:0;gap:22px;padding-block:22px 10px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:24px}
+.field{margin-bottom:22px}
+.field:last-child{margin-bottom:0}
+.lab{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:10px}
+.lab label{font-weight:600;font-size:15px}
+.lab small{color:var(--muted);font-size:13px}
+.num{display:flex;align-items:center;gap:6px;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:0 12px;min-width:0}
+.num:focus-within{border-color:var(--cyan)}
+.num input{flex:1;min-width:0;width:100%;background:transparent;border:0;color:var(--fg);font:600 18px/1 var(--body);padding:11px 0;font-variant-numeric:tabular-nums;outline:none}
+.num span{color:var(--muted);font-weight:600}
+input[type=range]{width:100%;margin:12px 0 0;accent-color:var(--gold);height:22px}
+.seg{display:grid;grid-template-columns:1fr 1fr;padding:4px;border:1px solid var(--line);border-radius:999px;background:var(--panel2);margin-bottom:22px}
+.seg button{border:0;background:transparent;color:var(--muted);font:600 14px var(--body);padding:9px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
+.seg button[aria-pressed=true]{background:rgba(255,255,255,.1);color:var(--fg)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+.hint{font-size:13px;color:var(--muted);margin:8px 0 0}
+.hint a{color:var(--cyan)}
+
+.res .big{font-family:var(--display);font-weight:800;font-size:clamp(44px,7vw,68px);line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.res .big small{font-size:.38em;color:var(--muted);font-weight:700;letter-spacing:0;margin-left:6px}
+.res .k{font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.tri{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:20px 0}
+.tri div{background:var(--panel2);padding:12px 14px}
+.tri b{display:block;font-size:18px;font-variant-numeric:tabular-nums}
+.tri span{font-size:12.5px;color:var(--muted)}
+.cmp{display:block;padding:14px 16px;border-radius:14px;background:rgba(255,200,61,.07);border:1px solid rgba(255,200,61,.25);font-size:15px}
+.cmp b{font-variant-numeric:tabular-nums}
+.cmp .up{color:#ff7a6b}.cmp .down{color:var(--green)}
+.scen{margin-top:20px}
+.scen h3{font-size:15px;margin:0 0 10px}
+.chips{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.chip{border:1px solid var(--line);border-radius:12px;padding:9px 6px;text-align:center;background:var(--panel2);cursor:pointer;color:var(--fg);font:inherit;transition:border-color .2s}
+.chip:hover{border-color:var(--cyan)}
+.chip.on{border-color:var(--gold);background:rgba(255,200,61,.08)}
+.chip i{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.chip b{font-size:15px;font-variant-numeric:tabular-nums}
+
+.chart{padding-block:12px 10px}
+.chart .panel{padding:22px 22px 14px}
+.chart h2,.faq h2,.more h2{font-family:var(--display);font-weight:800;font-size:clamp(24px,3.2vw,32px);letter-spacing:-.015em;margin:0 0 6px}
+.chart p{margin:0 0 14px;color:var(--muted)}
+.legend{display:flex;gap:18px;font-size:13px;color:var(--muted);margin-bottom:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+canvas{width:100%;height:260px;display:block}
+
+.faq,.more{padding-block:34px 10px}
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{cursor:pointer;font-weight:600;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::after{content:"+";color:var(--gold);font-size:22px;line-height:1;transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details .ans{overflow:hidden}
+details p{color:var(--muted);margin:0;padding-top:10px;max-width:75ch}
+summary::-webkit-details-marker{display:none}
+summary:hover{color:var(--gold)}
+summary::after{transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.lk{display:flex;gap:14px;align-items:center;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--panel);text-decoration:none;transition:border-color .2s,transform .2s}
+.lk:hover{border-color:var(--cyan);transform:translateY(-2px)}
+.lk .ic{flex:none;width:44px;height:44px;border-radius:12px;background:var(--red);display:grid;place-items:center}
+.lk .ic::after{content:"";border-left:14px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px}
+.lk small{display:block;color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+.lk b{font-size:16px}
+.note{font-size:13px;color:var(--muted);margin-top:26px;max-width:80ch}
+footer{padding-block:28px 40px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:36px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+footer a{color:var(--cyan);text-decoration:none}
+
+@media (max-width:900px){.calc{grid-template-columns:minmax(0,1fr)}.links{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:560px){.panel{padding:18px}.brand b{font-size:17px}.brand img{width:34px;height:34px}.bar .btn-sub{padding:8px 14px;font-size:14px}.crumb{display:none}
+ .chips{grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}.chip{padding:8px 2px}.chip b{font-size:13px}.chip i{font-size:11px}.tri b{font-size:16px}.tri div{padding:10px}canvas{height:220px}}
+@media (max-width:380px){.brand b{font-size:15px}.brand img{width:28px;height:28px}.bar .btn-sub{padding:7px 11px;font-size:13px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="/"><img src="/logo.png" alt="" width="40" height="40"><b>Cómo Va el Mundo</b></a>
+    <a class="crumb" href="/">← Volver a la portada</a>
+    <a class="btn btn-sub" href="https://www.youtube.com/@ComoVaElMundo?sub_confirmation=1" target="_blank" rel="noopener">Suscríbete</a>
+  </div>
+</header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <div class="eyebrow">Herramienta gratis · Hipotecas</div>
+  <h1>Calculadora de hipoteca con el <em>euríbor de hoy</em></h1>
+  <p class="lede">El euríbor cerró octubre de 2026 en una media del <b>3,239 %</b> (hace un año, 2,187 %). Pon tu préstamo y mira cuánto pagas al mes, cuántos intereses en total y qué pasa si el euríbor sube o baja.</p>
+</div></section>
+
+<section class="wrap calc" aria-label="Calculadora">
+  <form class="panel" id="f" onsubmit="return false">
+    <div class="seg" role="group" aria-label="Tipo de hipoteca">
+      <button type="button" id="tVar" aria-pressed="true">Variable (euríbor)</button>
+      <button type="button" id="tFix" aria-pressed="false">Fija</button>
+    </div>
+    <div class="field">
+      <div class="lab"><label for="cap">Importe del préstamo</label><small>lo que te presta el banco</small></div>
+      <div class="num"><input id="cap" inputmode="numeric" value="150.000"><span>€</span></div>
+      <input type="range" id="capR" min="20000" max="600000" step="5000" value="150000" aria-label="Importe del préstamo">
+    </div>
+    <div class="field">
+      <div class="lab"><label for="yrs">Plazo</label><small>años que quedan</small></div>
+      <div class="num"><input id="yrs" inputmode="numeric" value="25"><span>años</span></div>
+      <input type="range" id="yrsR" min="5" max="40" step="1" value="25" aria-label="Plazo en años">
+    </div>
+    <div class="field" id="varF">
+      <div class="two">
+        <div><div class="lab"><label for="eur">Euríbor</label></div><div class="num"><input id="eur" inputmode="decimal" value="3,239"><span>%</span></div></div>
+        <div><div class="lab"><label for="dif">Diferencial</label></div><div class="num"><input id="dif" inputmode="decimal" value="1,00"><span>%</span></div></div>
+      </div>
+      <p class="hint">El diferencial lo pone tu contrato (suele estar entre el 0,5 % y el 1,5 %). Euríbor: media de octubre de 2026.</p>
+    </div>
+    <div class="field" id="fixF" hidden>
+      <div class="lab"><label for="fix">Tipo de interés fijo (TIN)</label><small>el de tu oferta</small></div>
+      <div class="num"><input id="fix" inputmode="decimal" value="3,00"><span>%</span></div>
+    </div>
+  </form>
+
+  <div class="panel res" aria-live="polite">
+    <div class="k">Tu cuota al mes</div>
+    <div class="big" id="cuota">— <small>€/mes</small></div>
+    <div class="tri">
+      <div><b id="int">—</b><span>intereses en total</span></div>
+      <div><b id="tot">—</b><span>pagas en total</span></div>
+      <div><b id="tin">—</b><span>tipo aplicado</span></div>
+    </div>
+    <div class="cmp" id="cmp"></div>
+    <div class="scen" id="scenBox">
+      <h3>¿Y si el euríbor cambia?</h3>
+      <div class="chips" id="chips"></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap chart">
+  <div class="panel">
+    <h2>A dónde va tu dinero cada año</h2>
+    <p>Al principio casi todo son intereses; con los años, cada vez más va a pagar la casa.</p>
+    <div class="legend"><span><i style="background:var(--gold)"></i>Intereses</span><span><i style="background:var(--cyan)"></i>Capital (la casa)</span></div>
+    <canvas id="cv" role="img" aria-label="Gráfico de intereses y capital pagados cada año"></canvas>
+  </div>
+</section>
+
+<section class="wrap faq">
+  <h2>Preguntas rápidas</h2>
+  <details open><summary>¿Qué es el euríbor?</summary><div class="ans"><p>Es el tipo de interés medio al que los bancos europeos se prestan dinero entre ellos a un año. En una hipoteca variable pagas el euríbor más un diferencial fijo que pacta tu banco. Si el euríbor sube, tu cuota sube en la siguiente revisión.</p></div></details>
+  <details><summary>¿Cada cuánto se revisa mi hipoteca variable?</summary><div class="ans"><p>Normalmente cada 6 o 12 meses, según tu contrato. En cada revisión el banco toma el euríbor de un mes concreto (suele ser el de uno o dos meses antes) y recalcula la cuota para el siguiente periodo.</p></div></details>
+  <details><summary>¿Cómo se calcula la cuota?</summary><div class="ans"><p>Con el sistema francés, el habitual en España: pagas la misma cuota cada mes y se calcula con el capital pendiente, el interés mensual (tu tipo anual entre 12) y los meses que quedan. Esta calculadora usa esa fórmula; tu banco puede redondear distinto o añadir comisiones y seguros vinculados.</p></div></details>
+  <details><summary>¿Me conviene pasarme a fija?</summary><div class="ans"><p>Depende de tu caso: del tipo fijo que te ofrezcan, de lo que te cobre el cambio y de cuántos años te queden. Usa el botón «Fija» para comparar las dos cuotas con números reales de tu oferta. Esto es información, no asesoramiento financiero.</p></div></details>
+</section>
+
+<section class="wrap more">
+  <h2>Entiéndelo en vídeo</h2>
+  <div class="links">
+    <a class="lk" href="https://www.youtube.com/shorts/rjC7hX1lAsf" target="_blank" rel="noopener"><span class="ic"></span><span><small>Short · 20 s</small><b>Euríbor de octubre: cuánto sube tu hipoteca</b></span></a>
+    <a class="lk" href="https://www.youtube.com/watch?v=uHB3piWfhEU" target="_blank" rel="noopener"><span class="ic"></span><span><small>Vídeo explicado</small><b>¿Por qué no puedo comprar una casa?</b></span></a>
+  </div>
+  <p class="note">Cálculo orientativo con el sistema francés. No incluye comisiones, seguros ni gastos. Euríbor: media mensual publicada por EMMI (octubre 2026: 3,239 %; octubre 2025: 2,187 %). Información, no asesoramiento financiero.</p>
+</section>
+</main>
+
+<footer>
+  <div class="wrap"><span>© 2026 <a href="/">Cómo Va el Mundo</a> · youtube.com/@ComoVaElMundo</span><span>Información, no asesoramiento financiero.</span></div>
+</footer>
+
+<script>
+const EUR_NOW = 3.239, EUR_PREV = 2.187;
+const $ = id => document.getElementById(id);
+const nf0 = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 0, useGrouping: "always" });
+const nf1 = new Intl.NumberFormat("es-ES", { maximumFractionDigits: 1 });
+const nf2 = new Intl.NumberFormat("es-ES", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const nf3 = new Intl.NumberFormat("es-ES", { minimumFractionDigits: 3, maximumFractionDigits: 3 });
+const parse = s => { const v = parseFloat(String(s).replace(/\./g, "").replace(",", ".")); return isFinite(v) ? v : NaN; };
+const parseDec = s => { const v = parseFloat(String(s).replace(/\s/g, "").replace(",", ".")); return isFinite(v) ? v : NaN; };
+let mode = "var", scenDelta = 0;
+
+function payment(P, annual, years) {
+  const n = Math.round(years * 12), r = annual / 100 / 12;
+  if (n <= 0 || !(P > 0)) return NaN;
+  return r === 0 ? P / n : P * r / (1 - Math.pow(1 + r, -n));
+}
+function schedule(P, annual, years) {
+  const n = Math.round(years * 12), r = annual / 100 / 12, c = payment(P, annual, years), out = [];
+  let bal = P, yi = 0, yc = 0;
+  for (let m = 1; m <= n; m++) {
+    const i = bal * r, k = c - i; bal -= k; yi += i; yc += k;
+    if (m % 12 === 0 || m === n) { out.push([yi, yc]); yi = 0; yc = 0; }
+  }
+  return out;
+}
+function rate(delta = 0) {
+  if (mode === "fix") return parseDec($("fix").value);
+  return Math.max(0, parseDec($("eur").value) + delta) + parseDec($("dif").value);
+}
+function euro(v, dec) { return (dec ? nf2 : nf0).format(v) + " €"; }
+
+function update() {
+  const P = parse($("cap").value), Y = parse($("yrs").value), R = rate(scenDelta);
+  const c = payment(P, R, Y);
+  if (!isFinite(c)) { $("cuota").innerHTML = "— <small>€/mes</small>"; return; }
+  const total = c * Math.round(Y * 12);
+  $("cuota").innerHTML = nf0.format(Math.round(c)) + "<small>€/mes</small>";
+  $("int").textContent = euro(total - P);
+  $("tot").textContent = euro(total);
+  $("tin").textContent = nf2.format(R) + " %";
+
+  const cmp = $("cmp");
+  if (mode === "var") {
+    const prev = payment(P, EUR_PREV + parseDec($("dif").value), Y), now = payment(P, EUR_NOW + parseDec($("dif").value), Y), d = Math.round(now) - Math.round(prev);
+    cmp.innerHTML = `Con el euríbor de hace un año (${nf3.format(EUR_PREV)} %) pagarías <b>${nf0.format(Math.round(prev))} €/mes</b>. Con el de octubre de 2026: <b class="${d >= 0 ? "up" : "down"}">${d >= 0 ? "+" : "−"}${nf0.format(Math.abs(d))} €/mes</b> (${d >= 0 ? "+" : "−"}${nf0.format(Math.abs(d) * 12)} € al año).`;
+    cmp.hidden = false; $("scenBox").hidden = false;
+  } else {
+    const v = payment(P, EUR_NOW + 1, Y);
+    cmp.innerHTML = `Como referencia, una variable con euríbor de octubre + 1 % (${nf2.format(EUR_NOW + 1)} %) saldría a <b>${nf0.format(Math.round(v))} €/mes</b>.`;
+    cmp.hidden = false; $("scenBox").hidden = true;
+  }
+  const chips = [-1, -0.5, 0, 0.5, 1];
+  $("chips").innerHTML = chips.map(dl => {
+    const v = payment(P, rate(dl), Y);
+    return `<button type="button" class="chip${dl === scenDelta ? " on" : ""}" data-d="${dl}"><i>${dl === 0 ? "Hoy" : (dl > 0 ? "+" : "−") + nf2.format(Math.abs(dl)).replace(",00", "") + " pt"}</i><b>${nf0.format(Math.round(v))} €</b></button>`;
+  }).join("");
+  draw(schedule(P, R, Y));
+}
+$("chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; scenDelta = parseFloat(b.dataset.d); update(); });
+
+function draw(rows) {
+  const cv = $("cv"), cx = cv.getContext("2d"), r = cv.getBoundingClientRect(), dpr = Math.min(2, devicePixelRatio || 1);
+  cv.width = Math.round(r.width * dpr); cv.height = Math.round(r.height * dpr);
+  const W = cv.width, H = cv.height, padL = 52 * dpr, padB = 26 * dpr, padT = 8 * dpr;
+  cx.clearRect(0, 0, W, H);
+  const max = Math.max(...rows.map(([a, b]) => a + b)) || 1, n = rows.length;
+  const step = (W - padL) / n, bw = Math.max(2 * dpr, step * .72);
+  cx.font = `${11 * dpr}px "IBM Plex Sans", system-ui, sans-serif`; cx.fillStyle = "#a3a9c9"; cx.strokeStyle = "rgba(255,255,255,.07)"; cx.lineWidth = 1;
+  for (let g = 0; g <= 4; g++) {
+    const y = padT + (H - padT - padB) * (1 - g / 4);
+    cx.beginPath(); cx.moveTo(padL, y); cx.lineTo(W, y); cx.stroke();
+    cx.textAlign = "right"; cx.fillText(nf1.format(max * g / 4 / 1000) + "k", padL - 8 * dpr, y + 4 * dpr);
+  }
+  rows.forEach(([i, k], j) => {
+    const x = padL + j * step + (step - bw) / 2, hh = H - padT - padB;
+    const hk = hh * k / max, hi = hh * i / max, base = H - padB;
+    cx.fillStyle = "#38e1ff"; cx.fillRect(x, base - hk, bw, hk);
+    cx.fillStyle = "#ffc83d"; cx.fillRect(x, base - hk - hi, bw, hi);
+    if (n <= 15 || (j + 1) % 5 === 0 || j === 0) { cx.fillStyle = "#a3a9c9"; cx.textAlign = "center"; cx.fillText("Año " + (j + 1), x + bw / 2, H - 8 * dpr); }
+  });
+}
+
+function bind(numId, rangeId, fmt) {
+  const n = $(numId), r = $(rangeId);
+  r.addEventListener("input", () => { n.value = fmt(+r.value); update(); });
+  n.addEventListener("input", () => { const v = parse(n.value); if (isFinite(v)) r.value = v; update(); });
+  n.addEventListener("blur", () => { const v = parse(n.value); if (isFinite(v)) n.value = fmt(v); });
+}
+bind("cap", "capR", v => nf0.format(v));
+bind("yrs", "yrsR", v => String(Math.round(v)));
+["eur", "dif", "fix"].forEach(id => $(id).addEventListener("input", update));
+function setMode(m) { mode = m; scenDelta = 0; $("tVar").setAttribute("aria-pressed", m === "var"); $("tFix").setAttribute("aria-pressed", m === "fix"); $("varF").hidden = m !== "var"; $("fixF").hidden = m !== "fix"; update(); }
+$("tVar").onclick = () => setMode("var"); $("tFix").onclick = () => setMode("fix");
+addEventListener("resize", update);
+update();
+// smooth open/close for FAQ
+document.querySelectorAll(".faq details").forEach(d => {
+  const sum = d.querySelector("summary"), body = d.querySelector(".ans");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let anim = null;
+  sum.addEventListener("click", e => {
+    if (reduce) return;
+    e.preventDefault();
+    if (anim) anim.cancel();
+    const opening = !d.open;
+    if (opening) d.open = true;
+    const h = body.scrollHeight;
+    anim = body.animate(
+      opening ? [{ height: "0px", opacity: 0, transform: "translateY(-6px)" }, { height: h + "px", opacity: 1, transform: "none" }]
+              : [{ height: h + "px", opacity: 1, transform: "none" }, { height: "0px", opacity: 0, transform: "translateY(-6px)" }],
+      { duration: opening ? 380 : 300, easing: "cubic-bezier(.2,.8,.2,1)" });
+    anim.onfinish = () => { anim = null; if (!opening) d.open = false; };
+  });
+});
+</script>
+</body>
+</html>

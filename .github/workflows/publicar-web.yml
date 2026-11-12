@@ -1,0 +1,15 @@
+name: Publicar web
+on:
+  push:
+    paths: ["web/**"]
+  workflow_dispatch:
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Desplegar en Cloudflare Pages (proyecto comovaelmundo)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: b8101aee0acd0d56dce37d612727f003
+        run: npx -y wrangler@3 pages deploy web --project-name comovaelmundo --branch main --commit-dirty=true

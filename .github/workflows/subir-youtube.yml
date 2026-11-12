@@ -1,0 +1,26 @@
+name: Subir a YouTube
+on:
+  push:
+    paths: ["cola/**/meta.json"]
+  workflow_dispatch:
+jobs:
+  subir:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install google-api-python-client google-auth requests
+      - name: Subir vídeos pendientes de cola/ (en privado)
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python scripts/subir_youtube.py
+      - name: Guardar resultado
+        run: |
+          git config user.name "canal-bot"; git config user.email "bot@users.noreply.github.com"
+          find cola -name "*.mp4" -path "*/*" -exec sh -c '[ -f "$(dirname "$1")/resultado.json" ] && git rm -q --cached "$1" && rm "$1"' _ {} \;
+          git add -A cola && git commit -m "Subidos a YouTube" || true
+          git push
