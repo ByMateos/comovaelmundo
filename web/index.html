@@ -284,12 +284,12 @@ const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'
 
 // ticker (real figures from the channel's videos)
 const tick = [
-  ["Luz PVPC vie. 13 nov", "224,20 €/MWh", "up", "▲"], ["Mayorista sáb. 14 nov", "169,48 €/MWh", "down", "▼"], ["Luz mayorista oct.", "166,65 €/MWh", "up", "▲"],
+  ["Luz PVPC vie. 13 nov", "224,20 €/MWh", "up", "▲"], ["Mayorista sáb. 14 nov", "169,48 €/MWh (−8,9 %)", "down", "▼"], ["Luz mayorista oct.", "166,65 €/MWh", "up", "▲"],
   ["Euríbor oct.", "3,239 %", "up", "▲"], ["Nasdaq (5 nov)", "−5,5 %", "up", "▼"],
-  ["Paro registrado", "2.422.633", "up", "▲"], ["Afiliados S. Social", "+186.612", "down", "▲"],
+  ["Paro registrado", "2.422.633", "up", "▲"], ["Afiliados S. Social", "+186.612", "down", "▲"], ["Afiliados extranjeros oct.", "3.699.878 (récord)", "down", "▲"],
   ["SMI 2027 (propuesta)", "1.286 €", "up", "▲"], ["IPC oct. (INE, final)", "4,9 %", "up", "="], ["Pensiones 2027 (previsión Gob.)", "+3 % a 4 %", "down", "▲"],
   ["Aceite 26/27 (aforo)", "1,6 M t", "down", "▲"], ["Paro EE. UU. oct.", "4,1 %", "", ""], ["IPC EE. UU. oct. (mes)", "+0,4 %", "up", "▲"],
-  ["Gasolina 95", "1,722 €/l", "", ""], ["Bombona butano", "19,55 €", "", ""], ["Campaña 29N", "en marcha · vota dom. 29", "", ""], ["Huelga maquinistas", "mar. 17 nov", "", ""], ["Debate RTVE portavoces", "lun. 23 nov", "", ""], ["Actualizado", "13 nov 2026 · tarde", "", ""]
+  ["Gasolina 95", "1,722 €/l", "", ""], ["Bombona butano", "19,55 €", "", ""], ["Campaña 29N", "en marcha · vota dom. 29", "", ""], ["Huelga maquinistas", "mar. 17 nov", "", ""], ["Debate RTVE portavoces", "lun. 23 nov", "", ""], ["Actualizado", "sáb. 14 nov 2026 · mañana", "", ""]
 ];
 const row = tick.map(([k, v, c, a]) => `<span>${k} <b>${v}</b>${a ? `<em class="${c}">${a}</em>` : ""}</span>`).join("");
 document.getElementById("track").innerHTML = row + row;
