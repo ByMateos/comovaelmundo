@@ -1,0 +1,14 @@
+{"out": "/home/claude/canal/short/vuelos/short_vuelos.mp4", "topic": "Estados Unidos · viernes 13 de noviembre", "series": "ÚLTIMA HORA", "music": "/tmp/claude-0/-home-claude/3f8f79a9-c46c-53fb-baec-2bfb3165bcc1/scratchpad/music/nebula.mp3", "music_start": 22.5, "music_volume": 0.5,
+"footer": "Fuentes: EFE · AP · Reuters · Eurocontrol · FlightRadar24 · 14/11/2026",
+"scenes": [
+{"type": "hook", "dur": 3.6, "kicker": "ÚLTIMA HORA · EE. UU.", "line": "EE. UU. se queda", "pill": "sin vuelos", "sub": "Todos los despegues, parados"},
+{"type": "big", "dur": 3.2, "kicker": "DURANTE UNAS", "from": 0, "to": 4, "decimals": 0, "suffix": " h", "unit": "sin despegues", "note": "En todo el país · viernes 13"},
+{"type": "text", "dur": 3.4, "kicker": "EL MOTIVO", "title": "Fallo del control aéreo", "sub": "Se cayeron las comunicaciones"},
+{"type": "text", "dur": 3.6, "kicker": "SEGÚN EL GOBIERNO DE EE. UU.", "title": "Equipos antiguos", "sub": "Una sobrecarga de datos en sus sistemas"},
+{"type": "text", "dur": 3.2, "kicker": "¿CIBERATAQUE?", "title": "Sin indicios, por ahora", "sub": "Se sigue investigando"},
+{"type": "big", "dur": 3.4, "accent": "warm", "kicker": "RESULTADO", "from": 0, "to": 10000, "decimals": 0, "prefix": "+", "suffix": "", "unit": "vuelos retrasados", "note": "Y miles de cancelaciones · FlightRadar24"},
+{"type": "text", "dur": 3.8, "kicker": "Y EN EUROPA", "title": "También España", "sub": "Parados los despegues hacia EE. UU. de madrugada"},
+{"type": "text", "dur": 3.4, "kicker": "AHORA", "title": "Vuelos reanudados", "sub": "Pero los retrasos siguen"},
+{"type": "text", "dur": 3.2, "kicker": "SI VIAJAS", "title": "Consulta tu vuelo", "sub": "Con tu aerolínea o en Aena"},
+{"type": "cta", "dur": 2.8, "line1": "Una noticia al día,", "line2": "explicada fácil", "note": "«Nunca hubo vidas en riesgo», según EE. UU."}
+]}
